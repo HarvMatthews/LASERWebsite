@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = LASERWebsite
+build_property.RootNamespace = LASERWebsite
+build_property.ProjectDir = /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0Zvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-5pwfg2lbny
+
+[/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-vb76vs78jq
+
+[/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-45dpqj4uyl

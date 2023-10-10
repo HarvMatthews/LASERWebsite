@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mPbU0Sfo9VqA/wsP/vAKd3XdiEBE/VS9SLwBKFX09NIHCQ2aM/ZT6KV1eqNoeqiaFE2SfEwmX4Jh2nz/E/x3aQ==",
+  "dgSpecHash": "X9kUZrRM/+c087m17THLVnU8Qguv8leGx7qvL4oIx+V1GSBHCLIrgqs8GiwxltaJxKKrl/r1WwKBNyTiPWEHxg==",
   "success": true,
-  "projectFilePath": "/home/kitt/Documents/GitHub/LASER-Website/src/LASERWebsite/LASERWebsite.csproj",
+  "projectFilePath": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/LASERWebsite.csproj",
   "expectedPackageFiles": [
     "/home/kitt/.nuget/packages/microsoft.aspnetcore.authorization/7.0.5/microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "/home/kitt/.nuget/packages/microsoft.aspnetcore.components/7.0.5/microsoft.aspnetcore.components.7.0.5.nupkg.sha512",

@@ -1807,11 +1807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kitt/Documents/GitHub/LASER-Website/src/LASERWebsite/LASERWebsite.csproj",
+      "projectUniqueName": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/LASERWebsite.csproj",
       "projectName": "LASERWebsite",
-      "projectPath": "/home/kitt/Documents/GitHub/LASER-Website/src/LASERWebsite/LASERWebsite.csproj",
+      "projectPath": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/LASERWebsite.csproj",
       "packagesPath": "/home/kitt/.nuget/packages/",
-      "outputPath": "/home/kitt/Documents/GitHub/LASER-Website/src/LASERWebsite/obj/",
+      "outputPath": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/home/kitt/.local/share/godot/mono/GodotNuGetFallbackFolder"
