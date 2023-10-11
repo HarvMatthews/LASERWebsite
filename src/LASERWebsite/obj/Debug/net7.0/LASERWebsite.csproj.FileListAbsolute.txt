@@ -826,3 +826,4 @@
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/refint/LASERWebsite.dll
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/LASERWebsite.pdb
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/ref/LASERWebsite.dll
+/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/scopedcss/Shared/Footer.razor.rz.scp.css

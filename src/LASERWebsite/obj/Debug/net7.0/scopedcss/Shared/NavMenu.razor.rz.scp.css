@@ -6,9 +6,8 @@
 }
 
 .navbar[b-45dpqj4uyl] {
-    opacity: 0.8;
-    background: rgb(0,0,0);
-    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 75%); 
+    background: rgb(0,0,0, 0.2);
+    
     color: white;
     display: flex;
     justify-content: space-between;
@@ -21,6 +20,12 @@
 .navbar-brand[b-45dpqj4uyl] {
     font-size: 24px;
     font-weight: bold;
+}
+
+.navbar-brand img[b-45dpqj4uyl] {
+    max-width: auto;
+    max-height: 8vh;
+    
 }
 
 .navbar-links[b-45dpqj4uyl] {

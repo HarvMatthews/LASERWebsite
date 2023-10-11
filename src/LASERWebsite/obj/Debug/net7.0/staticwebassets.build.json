@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OgwD08eTR+xWQ8ANQsHBe38tGkbetwMAu1D5N9n/rTE=",
+  "Hash": "EE3tKcIywSuCBjKwTs0LIGEd+ktYA9QYNjBjQApTi6c=",
   "Source": "LASERWebsite",
   "BasePath": "/",
   "Mode": "Root",
@@ -6902,6 +6902,23 @@
       "OriginalItemSpec": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/scopedcss/projectbundle/LASERWebsite.bundle.scp.css"
     },
     {
+      "Identity": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/background.png",
+      "SourceId": "LASERWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/background.png"
+    },
+    {
       "Identity": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/css/app.css",
       "SourceId": "LASERWebsite",
       "SourceType": "Discovered",
@@ -7106,23 +7123,6 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/favicon.png",
-      "SourceId": "LASERWebsite",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "favicon.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
-    },
-    {
       "Identity": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/icon-192.png",
       "SourceId": "LASERWebsite",
       "SourceType": "Discovered",
@@ -7155,6 +7155,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/Logo_V3.png",
+      "SourceId": "LASERWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "Logo_V3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Logo_V3.png"
     },
     {
       "Identity": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/sample-data/weather.json",

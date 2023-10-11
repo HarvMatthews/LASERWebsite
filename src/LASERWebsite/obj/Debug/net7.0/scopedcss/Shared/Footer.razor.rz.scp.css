@@ -1,4 +1,4 @@
-.footer {
+.footer[b-5pwfg2lbny] {
     background: rgb(0,0,0, 0.8);
     background: linear-gradient(270deg, rgba(0,0,0,0.8) 0%, rgba(9,9,121,0.8) 75%);
     border-top: 2px solid rgba(0, 0, 0, 0.8);
@@ -6,26 +6,26 @@
     padding: 10px;
 }
 
-.footer-links {
+.footer-links[b-5pwfg2lbny] {
     margin: 0;
     text-align: center;
 
 }
 
-.footer-links ul {
+.footer-links ul[b-5pwfg2lbny] {
     list-style: none;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.footer-links li {
+.footer-links li[b-5pwfg2lbny] {
     display: inline-block;
     margin-right: 10px;
     margin-left: 10px;
 }
 
-.footer-links img {
+.footer-links img[b-5pwfg2lbny] {
     width: 30px; 
     height: auto;
     margin-right: 10px;

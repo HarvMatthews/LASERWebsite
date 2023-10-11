@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/LASERWebsite.styles.css"
     },
     {
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/Logo_V3.png",
+      "PackagePath": "staticwebassets/Logo_V3.png"
+    },
+    {
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/background.png",
+      "PackagePath": "staticwebassets/background.png"
+    },
+    {
       "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },
@@ -59,10 +67,6 @@
     {
       "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
-    },
-    {
-      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
     },
     {
       "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/icon-192.png",
