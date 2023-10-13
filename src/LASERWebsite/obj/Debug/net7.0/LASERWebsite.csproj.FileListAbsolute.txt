@@ -817,6 +817,8 @@
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/staticwebassets.pack.json
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/staticwebassets.build.json
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/staticwebassets.development.json
+/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/scopedcss/Pages/Index.razor.rz.scp.css
+/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/scopedcss/Shared/Footer.razor.rz.scp.css
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/scopedcss/bundle/LASERWebsite.styles.css
@@ -826,5 +828,3 @@
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/refint/LASERWebsite.dll
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/LASERWebsite.pdb
 /home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/ref/LASERWebsite.dll
-/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/scopedcss/Shared/Footer.razor.rz.scp.css
-/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/obj/Debug/net7.0/scopedcss/Pages/Index.razor.rz.scp.css

@@ -4,16 +4,18 @@
 
 .header-row {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between to offset to left */
+    justify-content: center;
     margin: 20vh;
 }
 
-.header-row button {
+.header-row #projects-button {
     
     margin: 1vh;
     padding: 10px 30px;
-    background: rgba(255, 255, 255, 0.9);
-    color: #000000;
+    height: 40px;
+    background: rgba(9,9,121,0.9);
+    color: white;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -22,8 +24,30 @@
     transition: background 0.3s, transform 0.2s;
 }
 
-.header-row button:hover {
-    background: rgba(255, 255, 255, 1);
+.header-row #projects-button:hover {
+    background: rgb(9,9,121);
+    transform: scale(1.05);
+}
+
+.header-row #getinvolved-button {
+    
+    margin: 1vh;
+    padding: 10px 30px;
+    height: 40px;
+    background: rgb(0,0,0, 0.9);
+    background: linear-gradient(270deg, rgba(0,0,0,0.9) 0%, rgba(9,9,121,0.9) 75%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.header-row #getinvolved-button:hover {
+    background: rgb(0,0,0, 1);
+    background: linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 75%);
     transform: scale(1.05);
 }
 
@@ -54,7 +78,7 @@
 }
 
 .content-panel {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 10px;
     color: white;
     text-align: center;
