@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/Logo_V3.png"
     },
     {
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/background-1.png",
+      "PackagePath": "staticwebassets/background-1.png"
+    },
+    {
       "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/background.png",
       "PackagePath": "staticwebassets/background.png"
     },
@@ -75,10 +79,6 @@
     {
       "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
-    },
-    {
-      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/sample-data/weather.json",
-      "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.LASERWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
