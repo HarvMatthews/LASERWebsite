@@ -36,7 +36,7 @@
     padding: 10px 30px;
     height: 40px;
     background: rgba(255, 255, 255, 0.9);
-    color: white;
+    color: black;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -90,6 +90,28 @@
 
 .content-panel p[b-45egzixnd4] {
     font-size: 2vh;
+}
+
+.project-spotlight[b-45egzixnd4]{
+    position: relative;
+    max-width: 800px; 
+    margin: 0 auto; 
+    width: 100%; 
+}
+
+.project-spotlight img[b-45egzixnd4] {
+    width: 100%; 
+}
+
+.project-spotlight .overlay[b-45egzixnd4] {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    padding: 20px;
+    width: 100%; 
+    
 }
 
 

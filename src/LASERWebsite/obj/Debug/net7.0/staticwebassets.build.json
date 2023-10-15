@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "izfzP9kJOpbZTfwSrDUGIrGP8bMFHh5bYH+mSforaPo=",
+  "Hash": "cVttIKVNMWyXUKtGUryxTPT2A2eg8lzdxjHOR5qBEAg=",
   "Source": "LASERWebsite",
   "BasePath": "/",
   "Mode": "Root",
@@ -7189,6 +7189,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Logo_V3.png"
+    },
+    {
+      "Identity": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/test.jpg",
+      "SourceId": "LASERWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "test.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/test.jpg"
     }
   ]
 }
