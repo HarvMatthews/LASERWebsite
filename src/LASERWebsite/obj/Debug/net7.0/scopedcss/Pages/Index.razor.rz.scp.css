@@ -116,6 +116,17 @@
     text-align: center;
 }
 
+.project-spotlight[b-45egzixnd4] {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project[b-45egzixnd4] {
+    width: 22vw; /* Adjust the width to allow for some spacing */
+}
+
+
 @media (max-width: 768px) {
     .header-row[b-45egzixnd4] {
         display: flex;
