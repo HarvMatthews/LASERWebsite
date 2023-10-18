@@ -13,16 +13,32 @@
       "PackagePath": "staticwebassets/LASERWebsite.styles.css"
     },
     {
-      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/Logo_V3.png",
-      "PackagePath": "staticwebassets/Logo_V3.png"
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/assets/Logo_V3.png",
+      "PackagePath": "staticwebassets/assets/Logo_V3.png"
     },
     {
-      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/background-1.png",
-      "PackagePath": "staticwebassets/background-1.png"
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/assets/background-1.png",
+      "PackagePath": "staticwebassets/assets/background-1.png"
     },
     {
-      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/background.png",
-      "PackagePath": "staticwebassets/background.png"
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/assets/background.png",
+      "PackagePath": "staticwebassets/assets/background.png"
+    },
+    {
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/assets/test.jpg",
+      "PackagePath": "staticwebassets/assets/test.jpg"
+    },
+    {
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/assets/toad.png",
+      "PackagePath": "staticwebassets/assets/toad.png"
+    },
+    {
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/assets/ukseds-rocket.png",
+      "PackagePath": "staticwebassets/assets/ukseds-rocket.png"
+    },
+    {
+      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/assets/ukseds-rover.png",
+      "PackagePath": "staticwebassets/assets/ukseds-rover.png"
     },
     {
       "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/css/app.css",
@@ -79,10 +95,6 @@
     {
       "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
-    },
-    {
-      "Id": "/home/kitt/Documents/GitHub/LASERWebsite/src/LASERWebsite/wwwroot/test.jpg",
-      "PackagePath": "staticwebassets/test.jpg"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.LASERWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
