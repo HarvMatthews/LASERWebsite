@@ -1,0 +1,31 @@
+.page[b-vb76vs78jq] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+.background[b-vb76vs78jq] {
+    position: relative; 
+}
+.background img[b-vb76vs78jq] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+main[b-vb76vs78jq] {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
