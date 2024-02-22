@@ -6,24 +6,25 @@
 <style>
   /* Add your CSS styles here */
   .navbar {
-      background: #111111; /* Dark background color */
-      color: white;
+      background: #111111; 
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 10px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      position: relative;
+      padding: 1vh; 
+      margin: 0; 
+      max-width: 100%;
+      border-bottom: 1px solid rgb(255, 255, 255);
   }
 
   .navbar-brand img {
-      width: 5vh; /* Adjust the width of the logo */
+      width: 5vh; 
       height: auto;
   }
 
   .navbar-links {
-      flex: 1; /* Occupy remaining space */
+      flex: 1; 
       display: flex;
-      justify-content: right; /* Center align the items */
+      justify-content: right; 
   }
 
   .navbar-links ul {
@@ -35,18 +36,18 @@
 
   .navbar-links li {
       margin-right: 1vw;
-      margin-left: 1vw; /* Adjust spacing between links */
+      margin-left: 1vw; 
   }
 
   .navbar-links a {
       color: white;
       text-decoration: none;
-      font-size: 18px; /* Adjust font size */
+      font-size: 18px; 
       transition: color 0.3s ease;
   }
 
   .navbar-links a:hover {
-      color: #58a6ff; /* Change color on hover */
+      color: #58a6ff; 
   }
 
   @media (max-width: 768px) {
@@ -57,11 +58,11 @@
 
       .navbar-links {
           margin-top: 10px;
-          justify-content: center; /* Center align for smaller screens */
+          justify-content: center; 
       }
 
       .navbar-links li {
-          margin: 10px 0; /* Adjust spacing for smaller screens */
+          margin: 10px 0; 
       }
   }
 </style>

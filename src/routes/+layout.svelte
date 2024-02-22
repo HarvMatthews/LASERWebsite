@@ -8,27 +8,19 @@
   </script>
   
   <style>
-    /* Add your CSS styles here */
+    .body {
+        margin: 0; 
+        padding: 0; 
+    }
     .page {
         display: flex;
         flex-direction: column;
         min-height: 100vh;
         position: relative;
+        max-width: 100%;
+        margin: 0; 
+        padding: 0; 
     }
-  
-    .background {
-        position: relative;
-    }
-  
-    .background img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-  
     main {
         flex: 1;
     }
@@ -43,16 +35,18 @@
     }
   </style>
   
-  <NavMenu />
-  <div class="background">
-    <img src={backgroundimg} alt="Background Image"> 
+  
+  
+  <div class="body">
+    <NavMenu />
     <div class="page">
         <main>
-            <article class="content-body">
-                <slot></slot> <!-- This will render the content of each individual page -->
+            <article class="content-body"> 
+                <slot></slot> 
             </article>
         </main>
     </div>
     <Footer />
-  </div>
+</div>
+  
   

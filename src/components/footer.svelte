@@ -6,12 +6,16 @@
 <style>
     /* Add your CSS styles here */
     .footer {
-        background: #111111;
-        border-top: 1px solid rgba(255, 255, 255, 0.5);
-        padding: 10px;
-        position: relative;
-        color: white;
-        text-align: center;
+      background: #111111; /* Dark background color */
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 1vh; 
+      margin: 0; 
+      max-width: 100%;
+      border-top: 1px solid rgb(255, 255, 255);
     }
 
     .footer p {
