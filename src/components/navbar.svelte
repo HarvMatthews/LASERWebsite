@@ -6,25 +6,24 @@
 <style>
   /* Add your CSS styles here */
   .navbar {
-      background: #24292e; /* Dark background color */
+      background: #111111; /* Dark background color */
       color: white;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 10px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   }
 
   .navbar-brand img {
-      width: 100px; /* Adjust the width of the logo */
+      width: 5vh; /* Adjust the width of the logo */
       height: auto;
   }
 
   .navbar-links {
       flex: 1; /* Occupy remaining space */
       display: flex;
-      justify-content: center; /* Center align the items */
+      justify-content: right; /* Center align the items */
   }
 
   .navbar-links ul {
@@ -35,7 +34,8 @@
   }
 
   .navbar-links li {
-      margin-right: 20px; /* Adjust spacing between links */
+      margin-right: 1vw;
+      margin-left: 1vw; /* Adjust spacing between links */
   }
 
   .navbar-links a {

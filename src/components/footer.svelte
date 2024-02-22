@@ -6,9 +6,8 @@
 <style>
     /* Add your CSS styles here */
     .footer {
-        background: linear-gradient(270deg, rgba(0,0,0,0.8) 0%, rgba(9,9,121,0.8) 75%);
-        border-top: 2px solid rgba(0, 0, 0, 0.8);
-        box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.185);
+        background: #111111;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
         padding: 10px;
         position: relative;
         color: white;

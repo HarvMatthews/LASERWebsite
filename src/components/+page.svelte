@@ -19,8 +19,11 @@
     </div>
 
     <div class="row">
-        <div class="header-0">
-            <h1>What we do:</h1>
+        <div class="header-row">
+            <div class="header-panel">
+                <h1>What we do:</h1>
+
+            </div>
         </div>
 
         <div class="content-panel-0">
