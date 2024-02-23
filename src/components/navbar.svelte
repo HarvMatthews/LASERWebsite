@@ -9,15 +9,19 @@
       background: #111111; 
       display: flex;
       align-items: center;
-      position: relative;
+
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+
       padding: 1vh; 
       margin: 0; 
-      max-width: 100%;
       border-bottom: 1px solid rgb(255, 255, 255);
   }
 
   .navbar-brand img {
-      width: 5vh; 
+      width: 4vh; 
       height: auto;
   }
 
@@ -30,13 +34,17 @@
   .navbar-links ul {
       display: flex;
       list-style: none;
-      margin: 0;
+      margin: 0 2vw;
       padding: 0;
   }
 
-  .navbar-links li {
-      margin-right: 1vw;
-      margin-left: 1vw; 
+  .navbar-links li:not(:last-child)::after {
+      content: "";
+      border-right: 1.5px solid white;
+      height: 100%; 
+      margin-left: 2vw;
+      margin-right: 2vw;
+      color: white;
   }
 
   .navbar-links a {
@@ -64,6 +72,14 @@
       .navbar-links li {
           margin: 10px 0; 
       }
+      .navbar-links li:not(:last-child)::after {
+      content: "";
+      border-right: 1px solid white;
+      height: 100%; 
+      margin-left: 4vw;
+      margin-right: 4vw;
+      color: white;
+  }
   }
 </style>
 

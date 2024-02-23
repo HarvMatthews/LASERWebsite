@@ -35,8 +35,6 @@
     }
   </style>
   
-  
-  
   <div class="body">
     <NavMenu />
     <div class="page">
