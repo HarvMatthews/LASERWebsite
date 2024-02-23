@@ -40,7 +40,7 @@
 
   .navbar-links li:not(:last-child)::after {
       content: "";
-      border-right: 1.5px solid white;
+      border-right: 1px solid white;
       height: 100%; 
       margin-left: 2vw;
       margin-right: 2vw;
