@@ -1,5 +1,6 @@
 <script>
     import '@fontsource-variable/exo-2';
+    import '@fontsource-variable/orbitron';
 
     import instagram from '$lib/assets/icons/instagram.svg';
     import email from '$lib/assets/icons/email.svg';
@@ -26,7 +27,7 @@
 
     .footer p {
         margin: 0;
-        font-family: 'Exo 2 Variable', sans-serif;
+        font-family: 'Orbitron Variable', sans-serif;
         padding: 1vh;
         font-size: 18px;
     }

@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource-variable/exo-2": "^5.0.17"
+		"@fontsource-variable/exo-2": "^5.0.17",
+		"@fontsource-variable/orbitron": "^5.0.18"
 	}
 }

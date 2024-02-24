@@ -2,6 +2,7 @@
 <script>
     import logo from '$lib/assets/Logo_V3.png';
     import '@fontsource-variable/exo-2';
+    import '@fontsource-variable/orbitron';
   </script>
   
   <style>
@@ -31,7 +32,7 @@
     }
   
     .logo-text {
-      font-family: 'Exo 2 Variable', sans-serif;
+      font-family: 'Orbitron Variable', sans-serif;
       font-size: 4vh;
       color: white;
       margin-left: 5px; 
@@ -65,7 +66,7 @@
       text-decoration: none;
       font-size: 18px; 
       transition: color 0.3s ease;
-      font-family: 'Exo 2 Variable', sans-serif;
+      font-family: 'Orbitron Variable', sans-serif;
     }
   
     .navbar-links a:hover {
