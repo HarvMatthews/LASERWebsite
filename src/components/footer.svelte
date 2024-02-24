@@ -3,7 +3,10 @@
 
     import instagram from '$lib/assets/icons/instagram.svg';
     import email from '$lib/assets/icons/email.svg';
-    import linkedin from '$lib/assets/icons/linkedin-1.svg';
+    import linkedin from '$lib/assets/icons/linkedin.svg';
+    import whatsapp from '$lib/assets/icons/whatsapp.svg';
+    import discord from '$lib/assets/icons/discord.svg';
+    import canvas from '$lib/assets/icons/canvas.svg';
 </script>
 
 <style>
@@ -82,7 +85,11 @@
     <div class="footer-icons">
         <a href="https://www.instagram.com/uol_laser/"><img src={instagram} alt="Instagram"></a>
         <a href="https://www.linkedin.com/company/laser-liverpool/"><img src={linkedin} alt="LinkedIn"></a>
-        <a href="#"><img src={email} alt="Email"></a>
+        <a href="mailto:laser@liverpool.ac.uk"><img src={email} alt="Email"></a>
+        <a href="https://chat.whatsapp.com/Hs5zybaWLcEGTOO6DJMgoO"><img src={whatsapp} alt="WhatsApp"></a>
+        <a href="https://discord.gg/8RZZe7E6FS"><img src={discord} alt="Discord"></a>
+        <a href="https://discord.gg/8RZZe7E6FS"><img src={canvas} alt="Canvas"></a>
+
     </div>
     <p>&copy; LASER 2023</p>
     <p2>Numqam Solum Volare</p2>
