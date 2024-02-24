@@ -34,7 +34,8 @@
     }
 
     .page {
-        padding: 20px;
+        
+        padding: 50px 0px 10px 10px;
     }
 
     .content-body {
