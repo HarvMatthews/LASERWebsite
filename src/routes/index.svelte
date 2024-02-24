@@ -38,12 +38,20 @@
 
     .button {
         padding: 10px 20px;
+        font-family: 'Exo 2 Variable';
         margin: 0 10px;
-        background-color: #007bff;
+        background-color: #111111;
         color: white;
         border: none;
         border-radius: 5px;
+        transition: all 0.3s ease;
         cursor: pointer;
+    }
+
+    .button:hover {
+        color: #58a6ff;
+        transform: scale(1.05);
+
     }
 
     @media (max-width: 768px) {
