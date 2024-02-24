@@ -22,6 +22,7 @@
     .logo-container {
       display: flex;
       align-items: center;
+      margin-left: 2vw;
     }
   
     .logo-container img {
@@ -39,7 +40,8 @@
     .navbar-links {
       flex: 1; 
       display: flex;
-      justify-content: right; 
+      justify-content: right;
+      margin-right: 2vw;
     }
   
     .navbar-links ul {

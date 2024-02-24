@@ -4,6 +4,8 @@
 	import Navbar from '../components/navbar.svelte';
 	import Footer from '../components/footer.svelte';
 
+	import Index from './index.svelte';
+
     function setViewportMetaTag() {
         const meta = document.createElement('meta');
         meta.name = 'viewport';
@@ -28,19 +30,17 @@
         max-width: 100%;
         margin: 0; 
         padding: 0; 
+        padding: 30px 0px 0px 0px;
     }
     main {
         flex: 1;
     }
-
-    .page {
-        
-        padding: 50px 0px 10px 10px;
-    }
-
     .content-body {
-        margin-top: 10px;
-        margin-bottom: 10px;
+    }
+    @media (max-width: 768px) {
+        .page {
+        padding: 70px 0px 0px 0px;
+    }
     }
 </style>
 
@@ -49,7 +49,7 @@
     <div class="page">
         <main>
             <article class="content-body"> 
-                <slot></slot> 
+                <Index></Index>
             </article>
         </main>
     </div>
