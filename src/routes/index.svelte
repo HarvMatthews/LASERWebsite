@@ -58,7 +58,7 @@
     .content-row {
         padding: 20px;
         background-color: #f0f0f0;
-        color: #333;
+        color: #000000;
         border-top: 1px solid rgb(255, 255, 255);
     }
 
@@ -73,6 +73,7 @@
         font-family: 'Exo 2 Variable';
         font-size: 2vh;
         text-align: justify;
+        color: #000000;
         line-height: 1.6;
         padding: 20px;
     }
