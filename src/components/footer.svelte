@@ -45,7 +45,7 @@
         justify-content: space-evenly; 
         align-items: center;
         width: 50%; 
-        padding: 4vh;
+        padding: 2vh;
     }
 
     .footer-icons a {
@@ -78,6 +78,16 @@
         position: absolute;
         right: 0; 
         top: 10%; 
+    }
+
+    @media (max-width: 768px) {
+      .footer-icons {
+        display: flex;
+        justify-content: space-evenly; 
+        align-items: center;
+        width: 100%; 
+        padding: 2vh;
+    }
     }
 </style>
 
