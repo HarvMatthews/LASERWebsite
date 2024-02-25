@@ -1,7 +1,7 @@
 <script>
-    import rocketproject from '$lib/assets/ukseds-rocket.png';
-    import roverproject from '$lib/assets/ukseds-rover.png';
-    import satcomproject from '$lib/assets/icons/projects/satelite.png'
+    import rocketproject from '$lib/assets/icons/projects/rocket-team.svg';
+    import roverproject from '$lib/assets/icons/projects/rover-team.svg';
+    import satcomproject from '$lib/assets/icons/projects/satellite.svg'
     import headerimage from '$lib/assets/background-1.png';
 
 
@@ -58,7 +58,7 @@
     }
 
     .button:hover {
-        color: #58a6ff;
+        filter: invert(1);
         transform: scale(1.05);
     }
 
@@ -126,8 +126,9 @@
 
     .item-container:hover {
         transform: scale(1.05);
+        filter: invert(1);
     }
-    
+  
     .item-container img {
         width: 18vh;
         height: auto;
