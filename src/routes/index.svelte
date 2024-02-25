@@ -60,7 +60,6 @@
     .button:hover {
         color: #58a6ff;
         transform: scale(1.05);
-
     }
 
     .content-row {
@@ -89,7 +88,7 @@
     .content-row p {
         font-family: 'Exo 2 Variable';
         font-size: 2vh;
-        text-align: justify;
+        text-align: center;
         color: #000000;
         line-height: 1.6;
         padding: 20px;
