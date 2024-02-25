@@ -166,6 +166,21 @@
         height: 350px;
     }
 
+    .header h1 {
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    .header h2 {
+        padding: 10px;
+        margin: 5px auto;
+    }
+
+    .buttons {
+        padding: 10px;
+        margin: 5px auto;
+    }
+
     .item-rowcontainer {
         overflow-x: auto;
         width: auto;
