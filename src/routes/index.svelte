@@ -189,8 +189,8 @@
     }
 
     .item-container {
-        flex: 0 0 auto; /* Allow containers to adjust width based on content */
-        min-width: 30%; /* Set a minimum width for each container */
+        flex: 0 0 auto; 
+        min-width: 30%; 
     }
     
     
