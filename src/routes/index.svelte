@@ -57,9 +57,15 @@
 
     .content-row {
         padding: 20px;
-        background-color: #f0f0f0;
+        background-color: #ffffff;
         color: #000000;
         border-top: 1px solid rgb(255, 255, 255);
+    }
+
+    .container {
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        padding: 20px;
     }
 
     .content-row h1 {
@@ -77,6 +83,7 @@
         line-height: 1.6;
         padding: 20px;
     }
+
 
     @media (max-width: 768px) {
         .header {
@@ -101,6 +108,7 @@
     </div>
 </div>
 <div class="content-row">
+    <div class="container">
     <h1>About us</h1>
     <p>A University of Liverpool, Electronics and Electrical Engineering department supported,
         student run group focused on research in space based engineering. Currently focusing on
@@ -113,4 +121,13 @@
         social atmosphere where students can not only develop their engineering and management
         skills, but also gain important industrial skills that students don’t tend to learn during
         their time in University.</p>
+    </div>
+</div>
+<div class="content-row">
+    <h1>Showcase of some of our ongoing projects</h1>
+    <p>We run multiple projects that span a broad range of fields, welcoming new people to join at all times. All backgrounds and courses are welcome - even people who aren't interested in the technical side.</p>
+    <div class="container">
+
+    </div>
+
 </div>

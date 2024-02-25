@@ -31,12 +31,10 @@
         max-width: 100%;
         margin: 0; 
         padding: 0; 
-        padding: 30px 0px 0px 0px;
+        padding: 6vh 0px 0px 0px;
     }
     main {
         flex: 1;
-    }
-    .content-body {
     }
     @media (max-width: 768px) {
         .page {

@@ -1,6 +1,6 @@
 <!-- Navbar.svelte -->
 <script>
-    import logo from '$lib/assets/Logo_V3.png';
+    import logo from '$lib/assets/logo-2.png';
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
   </script>
@@ -27,7 +27,7 @@
     }
   
     .logo-container img {
-      width: 4vh; 
+      width: 6vh; 
       height: auto;
     }
   
