@@ -214,17 +214,9 @@
 <div class="content-row">
     <div class="container">
     <h1>About us</h1>
-    <p>A University of Liverpool, Electronics and Electrical Engineering department supported,
-        student run group focused on research in space based engineering. Currently focusing on
-        competing in the OrbAstro competition to develop a payload to be launched on a CubeSat.
-        The end aim of our society is to develop, build and manage the construction of a CubeSat
-        (or any variations of such a small scale satellite). This is to be done through graded
-        university project work relating to LASER, that are already essential to the student’s EEE
-        related degree. The integral objective of this group is to promote and maintain interest in
-        the EEE field of study for graduating university students. We want to create a friendly and
-        social atmosphere where students can not only develop their engineering and management
-        skills, but also gain important industrial skills that students don’t tend to learn during
-        their time in University.</p>
+    <p>LASER is a student-run Engineering society based in the Electrical and Electronics Engineering department. We run multiple projects that span a broad range of fields and welcome new people to join at all times. All backgrounds and courses are welcome - even people who aren't interested in the technical side.
+        Some of our current initiatives include an entry into the UKSEDS rocketry competition, microcontroller/personal project workshops, visits to engineering companies, and talks from experts in the industry.
+        We want to create a friendly and social atmosphere where students can not only develop their engineering and management skills, but also gain important industrial skills that students don’t tend to learn during their time in University.</p>
     </div>
 </div>
 <div class="content-row">
