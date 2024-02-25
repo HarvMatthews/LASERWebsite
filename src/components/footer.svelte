@@ -8,6 +8,8 @@
     import whatsapp from '$lib/assets/icons/whatsapp.svg';
     import discord from '$lib/assets/icons/discord.svg';
     import canvas from '$lib/assets/icons/canvas.svg';
+
+    const currentYear = new Date().getFullYear();
 </script>
 
 <style>
@@ -102,6 +104,6 @@
         <a href="https://discord.gg/8RZZe7E6FS"><img src={canvas} alt="Canvas"></a>
 
     </div>
-    <p>&copy; LASER 2023</p>
+    <p>&copy; LASER {currentYear}</p>
     <p2>Numqam Solum Volare</p2>
 </div>
