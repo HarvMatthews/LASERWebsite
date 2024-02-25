@@ -163,12 +163,12 @@
         text-align: center;
         padding: 40px;
         color: white;
-        height: 350px;
+        height: 400px;
     }
 
     .header h1 {
-        padding: 20px;
-        margin: 10px auto;
+        padding: 10px;
+        margin: 15px auto;
     }
 
     .header h2 {
@@ -179,6 +179,13 @@
     .buttons {
         padding: 10px;
         margin: 5px auto;
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 2vh;
+        font-family: 'Exo 2 Variable';
+        margin: 0 auto;
     }
 
     .item-rowcontainer {
