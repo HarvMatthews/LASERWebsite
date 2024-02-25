@@ -1,7 +1,9 @@
 <script>
     import rocketproject from '$lib/assets/ukseds-rocket.png';
     import roverproject from '$lib/assets/ukseds-rover.png';
+    import satcomproject from '$lib/assets/icons/projects/satelite.png'
     import headerimage from '$lib/assets/background-1.png';
+
 
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
@@ -23,22 +25,28 @@
       font-family: 'Orbitron Variable', sans-serif;
       font-size: 4vh;
       color: rgb(255, 255, 255);
+      padding: 20px;
+      margin: 10px auto;
     }
 
     .header h2 {
       font-family: 'Exo 2 Variable';
       font-size: 2vh;
       color: rgb(255, 255, 255);
+      padding: 20px;
+      margin: 10px auto;
     }
 
     .buttons {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        padding: 20px;
+        margin: 20px auto;
     }
 
     .button {
         padding: 10px 20px;
+        font-size: 2vh;
         font-family: 'Exo 2 Variable';
         margin: 0 10px;
         background-color: #111111;
@@ -60,12 +68,14 @@
         background-color: #ffffff;
         color: #000000;
         border-top: 1px solid rgb(255, 255, 255);
+        margin: 10px auto;
     }
 
     .container {
         background-color: #f1f1f1;
         border-radius: 10px;
         padding: 20px;
+        margin: 10px auto;
     }
 
     .content-row h1 {
@@ -73,6 +83,7 @@
         font-size: 3vh;
         color: #000000;
         text-align: center;
+        margin: 10px auto;
     }
 
     .content-row p {
@@ -82,6 +93,64 @@
         color: #000000;
         line-height: 1.6;
         padding: 20px;
+        margin: 10px auto;
+    }
+
+    .separator {
+        content: "";
+        display: block;
+        height: 2px;
+        background-color: black;
+        border-radius: 1px; 
+        width: 80%; 
+        margin: 20px auto;
+    }
+
+    .item-rowcontainer {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        margin: auto;
+        
+    }
+
+    .item-container {
+        flex: 0 0 60%; 
+        text-align: center;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px auto;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .item-container:hover {
+        transform: scale(1.05);
+    }
+    
+    .item-container img {
+        width: 18vh;
+        height: auto;
+    }
+
+    .item-container p {
+        font-family: 'Orbitron Variable', sans-serif;
+        font-size: 2vh;
+        text-align: center;
+        color: #000000;
+        line-height: 1.6;
+        padding: 20px;
+        font-weight: bold;
+        margin: 10px auto;
+    }
+
+    .vseparator::after {
+        content: "";
+        height: 100%; 
+        margin-left: 2vw;
+        margin-right: 2vw;
+        color: white;
     }
 
 
@@ -96,7 +165,21 @@
         color: white;
         height: 350px;
     }
+
+    .item-rowcontainer {
+        overflow-x: auto;
+        width: auto;
+        display: inline;
+        padding: 20px;
     }
+
+    .item-container {
+        flex: 0 0 auto; /* Allow containers to adjust width based on content */
+        min-width: 30%; /* Set a minimum width for each container */
+    }
+    
+    
+}
 </style>
 
 <div class="header">
@@ -126,8 +209,23 @@
 <div class="content-row">
     <h1>Showcase of some of our ongoing projects</h1>
     <p>We run multiple projects that span a broad range of fields, welcoming new people to join at all times. All backgrounds and courses are welcome - even people who aren't interested in the technical side.</p>
-    <div class="container">
-
+    <div class="separator"></div>
+    <div class="item-rowcontainer">
+        <div class="item-container">
+            <img src={rocketproject}>
+            <p>Rocket team - UKSEDS</p>
+        </div>
+        <div class="vseparator"></div>
+        <div class="item-container">
+            <img src={satcomproject}>
+            <p>Satellite communications project</p>
+        </div>
+        
+        <div class="vseparator"></div>
+        <div class="item-container">
+            <img src={roverproject}>
+            <p>Rover team - UKSEDS</p>
+        </div>
     </div>
 
 </div>
