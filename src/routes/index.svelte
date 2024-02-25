@@ -229,7 +229,7 @@
 </div>
 <div class="content-row">
     <h1>Showcase of some of our ongoing projects</h1>
-    <p>We run multiple projects that span a broad range of fields, welcoming new people to join at all times. All backgrounds and courses are welcome - even people who aren't interested in the technical side.</p>
+    <p>We run multiple projects that span a broad range of fields. All students of different backgrounds and courses are welcome to join at all times - even people who aren't interested in the technical side.</p>
     <div class="separator"></div>
     <div class="item-rowcontainer">
         <div class="item-container">
