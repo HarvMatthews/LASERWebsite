@@ -2,8 +2,6 @@
     import rocketproject from '$lib/assets/icons/projects/rocket-team.svg';
     import roverproject from '$lib/assets/icons/projects/rover-team.svg';
     import satcomproject from '$lib/assets/icons/projects/satellite.svg'
-    import headerimage from '$lib/assets/background-1.png';
-
 
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
@@ -11,10 +9,10 @@
 
 <style>
     .header {
-        background-image: url('/src/lib/assets/background.png');
+        background-image: url('/src/lib/assets/background-2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-position: 50% 35%;
         text-align: center;
         padding: 40px;
         color: white;
@@ -156,13 +154,6 @@
 
     @media (max-width: 768px) {
         .header {
-        background-image: url('/src/lib/assets/background.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        text-align: center;
-        padding: 40px;
-        color: white;
         height: 400px;
     }
 
