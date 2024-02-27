@@ -5,6 +5,18 @@
 
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
+
+    import Getinvolved from '../components/index/getinvolved.svelte';
+
+     function scrollToProjects() {
+        const projectsHeader = document.getElementById('projects-header');
+        projectsHeader?.scrollIntoView({ behavior: 'smooth' });
+    }
+    function scrollToGetInvolved() {
+        const getinvolvedheader = document.getElementById('getinvolved-header');
+        getinvolvedheader?.scrollIntoView({behavior: 'smooth'});
+    }
+
 </script>
 
 <style>
@@ -48,7 +60,7 @@
         font-family: 'Exo 2 Variable';
         margin: 0 10px;
         background-color: #111111;
-        color: white;
+        color: #ffffff;
         border: none;
         border-radius: 5px;
         transition: all 0.3s ease;
@@ -107,7 +119,7 @@
         display: flex;
         justify-content: center;
         width: 40%;
-        margin: auto;
+        margin: 10px auto;
         
     }
 
@@ -199,20 +211,20 @@
     <h1>Liverpool Association For Space Engineering And Research</h1>
     <h2>A UOL student-run engineering society based in the Electrical and Electronics Engineering department</h2>
     <div class="buttons">
-        <button class="button">Get involved</button>
-        <button class="button">Our projects</button>
+        <button class="button"on:click={scrollToGetInvolved}>Get involved</button>
+        <button class="button"on:click={scrollToProjects}>Our projects</button>
     </div>
 </div>
 <div class="content-row">
     <div class="container">
-    <h1>About us</h1>
+    <h1>About us:</h1>
     <p>LASER is a student-run Engineering society based in the Electrical and Electronics Engineering department. We run multiple projects that span a broad range of fields and welcome new people to join at all times. All backgrounds and courses are welcome - even people who aren't interested in the technical side.
         Some of our current initiatives include an entry into the UKSEDS rocketry competition, microcontroller/personal project workshops, visits to engineering companies, and talks from experts in the industry.
         We want to create a friendly and social atmosphere where students can not only develop their engineering and management skills, but also gain important industrial skills that students don’t tend to learn during their time in University.</p>
     </div>
 </div>
-<div class="content-row">
-    <h1>Showcase of some of our ongoing projects</h1>
+<div class="content-row" id="projects-header">
+    <h1>Showcase of some of our ongoing projects:</h1>
     <p>We run multiple projects that span a broad range of fields. All students of different backgrounds and courses are welcome to join at all times - even people who aren't interested in the technical side.</p>
     <div class="separator"></div>
     <div class="item-rowcontainer">
@@ -232,5 +244,7 @@
             <p>Rover team - UKSEDS</p>
         </div>
     </div>
-
+    <div class="separator"></div>
+    <h1 id="getinvolved-header">How to get involved:</h1>
+    <Getinvolved/>
 </div>
