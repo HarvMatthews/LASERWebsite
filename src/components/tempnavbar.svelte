@@ -1,3 +1,4 @@
+<!--Peter Hamilton 28/2/24-->
 <!-- Navbar.svelte -->
 <script>
     import logo from '$lib/assets/logo-2.png';

@@ -1,3 +1,5 @@
+<!--Peter Hamilton 21/2/24--> 
+<!--Index.svelte-->
 <script>
     import rocketproject from '$lib/assets/icons/projects/rocket-team.svg';
     import roverproject from '$lib/assets/icons/projects/rover-team.svg';
