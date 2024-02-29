@@ -89,8 +89,8 @@
     }
 
     .box1-content p {
-        font-weight: bold;
-        font-style: italic;
+      font-weight: bold;
+      font-style: italic;
     }
     
     .box1-side {

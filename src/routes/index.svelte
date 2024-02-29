@@ -244,7 +244,11 @@
             <p>Rover team - UKSEDS</p>
         </div>
     </div>
+</div>
+<div class="content-row" id="getinvolved-header">
+    <h1>How to get involved:</h1>
+    <p>If you are a student or a company and you want to get involved with LASER, we host events and weekly meetings throughout the year.</p>
     <div class="separator"></div>
-    <h1 id="getinvolved-header">How to get involved:</h1>
     <Getinvolved/>
 </div>
+
