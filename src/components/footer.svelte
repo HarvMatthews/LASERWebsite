@@ -101,7 +101,7 @@
         <a href="mailto:laser@liverpool.ac.uk"><img src={email} alt="Email"></a>
         <a href="https://chat.whatsapp.com/Hs5zybaWLcEGTOO6DJMgoO"><img src={whatsapp} alt="WhatsApp"></a>
         <a href="https://discord.gg/8RZZe7E6FS"><img src={discord} alt="Discord"></a>
-        <a href="https://discord.gg/8RZZe7E6FS"><img src={canvas} alt="Canvas"></a>
+        <a href="https://liverpool.instructure.com/courses/55224"><img src={canvas} alt="Canvas"></a>
 
     </div>
     <p>&copy; LASER {currentYear}</p>
