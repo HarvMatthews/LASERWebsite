@@ -5,7 +5,6 @@
     import TempNavBar from '../components/tempnavbar.svelte';
 	import Footer from '../components/footer.svelte';
 
-	import Index from './index.svelte';
 	import Tempnavbar from '../components/tempnavbar.svelte';
 
     function setViewportMetaTag() {
@@ -46,11 +45,11 @@
 </style>
 
 <div class="body">
-    <Tempnavbar />
+    <Navbar />
     <div class="page">
         <main>
             <article class="content-body"> 
-                <Index></Index>
+                <slot></slot>
             </article>
         </main>
     </div>

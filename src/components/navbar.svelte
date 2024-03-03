@@ -113,10 +113,10 @@
           <a class="nav-link" href="/" rel="prefetch">Home</a>
         </li>
         <li>
-          <a class="nav-link" href="settings" rel="prefetch">Projects</a>
+          <a class="nav-link" href="/projects" rel="prefetch">Projects</a>
         </li>
         <li>
-          <a class="nav-link" href="about" rel="prefetch">Contact</a>
+          <a class="nav-link" href="/about" rel="prefetch">Contact</a>
         </li>
       </ul>
     </div>
