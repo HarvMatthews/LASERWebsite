@@ -1,13 +1,13 @@
+<!--Peter Hamilton 06/3/24--> 
 <script>
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 </script>
 <style>
 .nav-link {
-  background-color: #ffffff00;
+  background-color: #111111;
   color: white;
   border: none;
-  color: white;
   text-decoration: none;
   padding: 0;
   font-size: 18px; 
@@ -50,15 +50,13 @@
 }
 
 .dropdown-content:hover {display: block; opacity: 1;}
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #f1f1f1;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .nav-link {background-color: #ffffff00;}
+.dropdown:hover .nav-link {background-color: #111111;}
 </style>
 <div class="dropdown">
     <button class="nav-link">Resources</button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="/resources/hear">HEAR Accreditation</a>
     </div>
   </div>
