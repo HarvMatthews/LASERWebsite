@@ -4,6 +4,9 @@
     import logo from '$lib/assets/logo-2.png';
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
+
+    import Dropdown from './resources/dropdown.svelte';
+    
   </script>
   
   <style>
@@ -110,7 +113,7 @@
     <div class="navbar-links">
       <ul>
         <li>
-          <a class="nav-link" href="/" rel="prefetch">Home</a>
+          <Dropdown />
         </li>
         <li>
           <a class="nav-link" href="/projects" rel="prefetch">Projects</a>
