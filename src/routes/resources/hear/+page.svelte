@@ -220,7 +220,7 @@
             <p>Gain exposure to diverse perspectives and teamwork while contributing to real-world projects like rocketry or satellite development.</p>
         </div>
         <div class="container">
-            <h1>Organize events like talks or seminars:</h1>
+            <h1>Organise events like talks or seminars:</h1>
             <p>Develop communication, networking, and event management skills by inviting industry professionals to campus.</p>
         </div>
         <div class="container">

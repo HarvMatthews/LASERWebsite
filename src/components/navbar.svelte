@@ -23,6 +23,17 @@
       margin: 0; 
       border-bottom: 1px solid rgb(255, 255, 255);
     }
+
+    .navbar-brand a {
+      text-decoration: none;
+    }
+
+    .navbar-brand {
+      transition: all 0.3s ease;
+    }
+    .navbar-brand:hover {
+      transform: scale(1.05)
+    }
   
     .logo-container {
       display: flex;
@@ -105,10 +116,10 @@
   
   <div class="navbar">
     <div class="navbar-brand">
-      <div class="logo-container">
+      <a href="/"><div class="logo-container">
         <img src={logo} alt="LASER Logo">
         <span class="logo-text">LASER</span>
-      </div>
+      </div></a>
     </div>
     <div class="navbar-links">
       <ul>
