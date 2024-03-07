@@ -92,12 +92,12 @@
 
     .content-row p {
         font-family: 'Exo 2 Variable';
-        font-size: 2vh;
-        text-align: center;
+        font-size: 3vh;
         color: #000000;
         line-height: 1.6;
         padding: 20px;
         margin: 10px auto;
+        text-align: center;
     }
 
     .separator {
@@ -204,7 +204,7 @@
 
 <div class="header">
     <h1>HEAR Accreditation</h1>
-    <h2>Placeholder</h2>
+    <h2>A formal degree transcript allowing for voluntary or academic work at LASER to be recorded, benefiting the student's record and enhancing employability.</h2>
     <div class="buttons">
         <a href="https://www.hear.ac.uk/about">
             <button class="button">Find out more about HEAR records</button>
@@ -212,12 +212,31 @@
     </div>
 </div>
 <div class="content-row">
-    <div class="container">
-    <h1>About us:</h1>
-    <p>LASER is a student-run Engineering society based in the Electrical and Electronics Engineering department. We run multiple projects that span a broad range of fields and welcome new people to join at all times. All backgrounds and courses are welcome - even people who aren't interested in the technical side.
-        Some of our current initiatives include an entry into the UKSEDS rocketry competition, microcontroller/personal project workshops, visits to engineering companies, and talks from experts in the industry.
-        We want to create a friendly and social atmosphere where students can not only develop their engineering and management skills, but also gain important industrial skills that students don’t tend to learn during their time in University.</p>
-    </div>
+    <h1>How to obtain HEAR Accreditation for LASER on your transcript:</h1>
+    <p style="text-align: center;"> This section highlights several ways to gain valuable skills and experiences beyond attending lectures:</p>
+    <div class="separator"></div>
+        <div class="container">
+            <h1>Join cross-faculty, international projects:</h1>
+            <p>Gain exposure to diverse perspectives and teamwork while contributing to real-world projects like rocketry or satellite development.</p>
+        </div>
+        <div class="container">
+            <h1>Organize events like talks or seminars:</h1>
+            <p>Develop communication, networking, and event management skills by inviting industry professionals to campus.</p>
+        </div>
+        <div class="container">
+            <h1>Plan and participate in field trips:</h1>
+            <p>Apply theoretical knowledge in real-world settings by visiting relevant companies and museums.</p>
+        </div>
+        <div class="container">
+            <h1>Manage budgets and secure funding:</h1>
+            <p>Gain financial management experience by overseeing budgets and seeking funding for projects.</p>
+        </div>
+        <div class="container">
+            <h1>Work in an agile team environment:</h1>
+            <p>Develop problem-solving, creativity, and time management skills while collaborating effectively in a fast-paced environment.</p>
+        </div>
+        <div class="separator"></div>
+        <p>By actively participating in extracurricular activities, you can acquire valuable skills, make a positive impact, and stand out from the crowd.</p>
 </div>
 
 
