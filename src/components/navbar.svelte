@@ -130,7 +130,7 @@
           <a class="nav-link" href="/projects" rel="prefetch">Projects</a>
         </li>
         <li>
-          <a class="nav-link" href="/about" rel="prefetch">Contact</a>
+          <a class="nav-link" href="/about" rel="prefetch">About</a>
         </li>
       </ul>
     </div>

@@ -217,14 +217,6 @@
         <button class="button"on:click={scrollToProjects}>Our projects</button>
     </div>
 </div>
-<div class="content-row">
-    <div class="container">
-    <h1>About us:</h1>
-    <p>LASER is a student-run Engineering society based in the Electrical and Electronics Engineering department. We run multiple projects that span a broad range of fields and welcome new people to join at all times. All backgrounds and courses are welcome - even people who aren't interested in the technical side.
-        Some of our current initiatives include an entry into the UKSEDS rocketry competition, microcontroller/personal project workshops, visits to engineering companies, and talks from experts in the industry.
-        We want to create a friendly and social atmosphere where students can not only develop their engineering and management skills, but also gain important industrial skills that students don’t tend to learn during their time in University.</p>
-    </div>
-</div>
 <div class="content-row" id="projects-header">
     <h1>Showcase of some of our ongoing projects:</h1>
     <p>We run multiple projects that span a broad range of fields. All students of different backgrounds and courses are welcome to join at all times - even people who aren't interested in the technical side.</p>
@@ -245,6 +237,16 @@
             <img src={roverproject}>
             <p>Rover team - UKSEDS</p>
         </div>
+    </div>
+</div>
+<div class="content-row">
+    <div class="container">
+        <h1>We have merch!</h1>
+        <p>Currently only LASER hoodies</p>
+        <div class="separator"></div>
+        <iframe src="https://payments.liv.ac.uk/product-catalogue/uol-merchandise/school-of-electrical-engineering-electronics-computer-science/laser-hoodie" width="100%" height="300" style="border:none;">
+        </iframe> 
+        
     </div>
 </div>
 <div class="content-row" id="getinvolved-header">
