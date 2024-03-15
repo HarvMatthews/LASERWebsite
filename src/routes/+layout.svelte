@@ -1,5 +1,8 @@
 <!-- Layout.svelte -->
-<script>
+<script lang="ts">
+    import {fade} from 'svelte/transition'
+    export let data
+
     import { onMount } from 'svelte';
 	import Navbar from '../components/navbar.svelte';
     import TempNavBar from '../components/tempnavbar.svelte';
@@ -49,7 +52,11 @@
     <div class="page">
         <main>
             <article class="content-body"> 
-                <slot></slot>
+                {#key data.url}
+                <div in:fade>
+                    <slot />
+                </div>
+                {/key}
             </article>
         </main>
     </div>
