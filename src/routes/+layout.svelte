@@ -1,6 +1,7 @@
 <!-- Layout.svelte -->
 <script lang="ts">
     import {fade} from 'svelte/transition'
+    import {quintIn, quintOut} from 'svelte/easing'
     export let data
 
     import { onMount } from 'svelte';
@@ -53,7 +54,7 @@
         <main>
             <article class="content-body"> 
                 {#key data.url}
-                <div in:fade>
+                <div in:fade={{delay: 300, duration: 600, easing: quintIn}} out:fade={{delay: 150, duration: 300, easing: quintOut}}>
                     <slot />
                 </div>
                 {/key}
