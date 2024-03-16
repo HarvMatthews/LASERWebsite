@@ -6,6 +6,12 @@
 </script>
 
 <style>
+    .body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+
     .header {
         background-image: url('/src/lib/assets/background-2.jpg');
         background-size: cover;
@@ -193,6 +199,7 @@
 }
 </style>
 
+<div class="body">
 <div class="header">
     <h1>About us</h1>
     <h2>A UOL student-run engineering society based in the Electrical and Electronics Engineering department</h2>
@@ -205,4 +212,4 @@
         We want to create a friendly and social atmosphere where students can not only develop their engineering and management skills, but also gain important industrial skills that students don’t tend to learn during their time in University.</p>
     </div>
 </div>
-
+</div>

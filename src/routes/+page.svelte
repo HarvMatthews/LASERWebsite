@@ -22,6 +22,12 @@
 </script>
 
 <style>
+    .body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+    
     .header {
         background-image: url('/src/lib/assets/background-2.jpg');
         background-size: cover;
@@ -209,6 +215,7 @@
 }
 </style>
 
+<div class="body">
 <div class="header">
     <h1>Liverpool Association For Space Engineering And Research</h1>
     <h2>A UOL student-run engineering society based in the Electrical and Electronics Engineering department</h2>
@@ -254,5 +261,6 @@
     <p>If you are a student or a company and you want to get involved with LASER, we host events and weekly meetings throughout the year.</p>
     <div class="separator"></div>
     <Getinvolved/>
+</div>
 </div>
 

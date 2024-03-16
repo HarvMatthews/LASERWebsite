@@ -15,6 +15,12 @@
 </script>
 
 <style>
+    .body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+    }
+    
     .header {
         background-image: url('/src/lib/assets/background-2.jpg');
         background-size: cover;
@@ -202,6 +208,7 @@
 }
 </style>
 
+<div class="body">
 <div class="header">
     <h1>HEAR Accreditation</h1>
     <h2>A formal degree transcript allowing for voluntary or academic work at LASER to be recorded, benefiting the student's record and enhancing employability.</h2>
@@ -238,5 +245,5 @@
         <div class="separator"></div>
         <p>By actively participating in extracurricular activities, you can acquire valuable skills, make a positive impact, and stand out from the crowd.</p>
 </div>
-
+</div>
 
