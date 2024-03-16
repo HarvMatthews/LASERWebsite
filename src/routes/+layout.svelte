@@ -43,7 +43,7 @@
     }
 
     .content-body {
-        background-color: black;
+        background-color: #111111;
     }
     @media (max-width: 768px) {
         .page {
