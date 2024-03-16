@@ -27,7 +27,6 @@
         margin: 0; 
         padding: 0;
         overflow-x: hidden;
-        background-color: #111111;
     }
     .page {
         display: flex;
@@ -38,11 +37,9 @@
         margin: 0; 
         padding: 0; 
         padding: 6vh 0px 0px 0px;
-        background-color: white;
     }
     main {
         flex: 1;
-        background-color: white;
     }
 
     .content-body {
