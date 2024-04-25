@@ -9,6 +9,7 @@
     import '@fontsource-variable/orbitron';
 
     import Getinvolved from '../components/index/getinvolved.svelte';
+	import Faq from '../components/index/faq.svelte';
 
      function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
@@ -261,6 +262,7 @@
     <p>If you are a student or a company and you want to get involved with LASER, we host events and weekly meetings throughout the year.</p>
     <div class="separator"></div>
     <Getinvolved/>
+    <Faq></Faq>
 </div>
 </div>
 
