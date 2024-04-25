@@ -15,6 +15,7 @@
   
   <style>
     .box-container {
+      color: #000000;
       margin: 0px auto;
       padding: 20px;
       border-radius: 10px;
@@ -46,7 +47,6 @@
   
     .box1-content {
       transition: all 0.3s ease-out;
-      color: #ffffff;
       overflow: hidden;
       font-family: 'Exo 2 Variable';
       border-top-left-radius: 10px;
@@ -54,7 +54,6 @@
     }
     .box1-side {
       transition: all 0.3s ease-out;
-      color: rgb(0, 0, 0);
       overflow: hidden;
       font-family: 'Exo 2 Variable';
       border-top-right-radius: 10px;
@@ -63,7 +62,6 @@
     }
     .box2-content {
       transition: all 0.3s ease-out;
-      color: #ffffff;
       overflow: hidden;
       font-family: 'Exo 2 Variable';
       border-top-right-radius: 10px;
@@ -71,7 +69,6 @@
     }
     .box2-side {
       transition: all 0.3s ease-out;
-      color: #f1f1f1;
       overflow: hidden;
       font-family: 'Exo 2 Variable';
       border-top-left-radius: 10px;
@@ -86,7 +83,7 @@
     }
   
     .box1-content {
-      background: #111111;
+      background: #ffffff;
       flex: 6;
       padding: 30px 40px;
     }
@@ -97,17 +94,17 @@
     }
     
     .box1-side {
-      background: #f1f1f1;
+      background: #111111;
       flex: 2;
     }
   
     .box2-side {
-      background: #f1f1f1;
+      background: #111111;
       flex: 0;
     }
   
     .box2-content {
-      background: #111111;
+      background: #ffffff;
       flex: 0;
     }
 
