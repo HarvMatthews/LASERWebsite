@@ -254,7 +254,7 @@
         <div class="separator"></div>
         <Faq question={"How can I start a project?"}/>
         <Faq question={"What sort of things do you do?"}/>
-        <Faq question={"I lack technical skills/knowledge, can I still take part?"}/>
+        <Faq question={"I lack technical skills/knowledge, can I still take part?"} answer={"We encourage anyone regardless of course and background with an interest to join, as our projects often cover a wide range of fields."}/>
         
         
     </div>
