@@ -249,11 +249,13 @@
 </div>
 <div class="content-row">
     <div class="container">
-        <h1>We have merch!</h1>
-        <p>Currently only LASER hoodies</p>
+        <h1>FAQ:</h1>
+        <p>Some common questions commonly asked about LASER from prospective members.</p>
         <div class="separator"></div>
-        <iframe src="https://payments.liv.ac.uk/product-catalogue/uol-merchandise/school-of-electrical-engineering-electronics-computer-science/laser-hoodie" width="100%" height="300" style="border:none;">
-        </iframe> 
+        <Faq question={"How can I start a project?"}/>
+        <Faq question={"What sort of things do you do?"}/>
+        <Faq question={"I lack technical skills/knowledge, can I still take part?"}/>
+        
         
     </div>
 </div>
@@ -262,7 +264,7 @@
     <p>If you are a student or a company and you want to get involved with LASER, we host events and weekly meetings throughout the year.</p>
     <div class="separator"></div>
     <Getinvolved/>
-    <Faq></Faq>
+    
 </div>
 </div>
 

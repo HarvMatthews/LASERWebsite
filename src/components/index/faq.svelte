@@ -6,96 +6,120 @@
     export let question:String;
     export let answer:String;
     
-    let bottomOpen = false;
+    let rightOpen = false;
   
-    function toggleBottomBox() {
-      bottomOpen = !bottomOpen;
+    function toggleRightBox() {
+      rightOpen = !rightOpen;
     }
-</script>
-
-<style>
+  </script>
+  
+  <style>
     .box-container {
-        margin: 10px auto;
-        padding: 20px;
-        border-radius: 10px;
-        height: 40vh;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
+      margin: 0px auto;
+      padding: 20px;
+      border-radius: 10px;
+      width: 90%;
+      height: 130px;
+      display: flex;
+      align-items: stretch;
     }
-
-    .bottom-open .box1-content {
-        flex: 0;
-        padding: 30px 40px;
-        opacity: 1;
-        max-height: 20vh;
-        overflow: hidden;
+  
+    .right-open .box1-content {
+      flex: 0;
+      padding: 0;
+      opacity: 0;
     }
-
-    .bottom-open .box1-side {
-        flex: 0;
+  
+    .right-open .box1-side {
+      flex: 0;
     }
-
-    .bottom-open .box2-side {
-        flex: 2;
+  
+    .right-open .box2-side {
+      flex: 2;
     }
-
-    .bottom-open .box2-content {
-        flex: 4;
-        padding: 30px 40px;
-        opacity: 1;
-        max-height: 20vh;
-        overflow: hidden;
+  
+    .right-open .box2-content {
+      flex: 6;
+      padding: 30px 40px;
+      opacity: 1;
     }
-
-    .box1-content,
-    .box1-side,
-    .box2-content,
-    .box2-side {
-        transition: all 0.3s ease-out;
-        overflow: hidden;
-        font-family: 'Exo 2 Variable';
-        border-radius: 10px;
-    }
-
+  
     .box1-content {
-        background: #111111;
-        flex: 4;
-        padding: 30px 40px;
-        color: #ffffff;
+      transition: all 0.3s ease-out;
+      color: #ffffff;
+      overflow: hidden;
+      font-family: 'Exo 2 Variable';
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .box1-side {
+      transition: all 0.3s ease-out;
+      color: rgb(0, 0, 0);
+      overflow: hidden;
+      font-family: 'Exo 2 Variable';
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      
+    }
+    .box2-content {
+      transition: all 0.3s ease-out;
+      color: #ffffff;
+      overflow: hidden;
+      font-family: 'Exo 2 Variable';
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .box2-side {
+      transition: all 0.3s ease-out;
+      color: #f1f1f1;
+      overflow: hidden;
+      font-family: 'Exo 2 Variable';
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  
+    .box1-side,
+    .box2-side {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+  
+    .box1-content {
+      background: #111111;
+      flex: 6;
+      padding: 30px 40px;
     }
 
     .box1-content p {
-        font-weight: bold;
-        font-style: italic;
+      font-weight: bold;
+      font-style: italic;
     }
-
+    
     .box1-side {
-        background: #f1f1f1;
-        flex: 0;
+      background: #f1f1f1;
+      flex: 2;
     }
-
+  
     .box2-side {
-        background: #f1f1f1;
-        flex: 2;
+      background: #f1f1f1;
+      flex: 0;
     }
-
+  
     .box2-content {
-        background: #111111;
-        flex: 0;
-        color: #ffffff;
-        padding: 30px 40px;
+      background: #111111;
+      flex: 0;
     }
 
     .box2-content a {
-        color: #ffffff;
+        color: #ffffff; 
         text-decoration: underline;
     }
 
     .box2-content a:hover {
         color: #2f00ff;
     }
-
+  
     button {
         padding: 10px 50px;
         font-size: 2vh;
@@ -114,24 +138,27 @@
         transform: scale(1.05);
     }
 
-    .bottom-button.flipped,
-    .top-button.flipped {
-        transform: rotateX(180deg);
+    @media (max-width: 768px) {
+        .box-container {
+            height: 450px;
+        }
     }
-</style>
 
-<div class="box-container {bottomOpen ? 'bottom-open' : ''}">
+    
+  </style>
+  
+  <div class="box-container {rightOpen ? 'right-open' : ''}">
     <div class="box1-content content">
-        <h1>{question}</h1>
+      <h1>{question}</h1>
     </div>
     <div class="box1-side">
-        <button class="bottom-button {bottomOpen ? 'flipped' : ''}" on:click={toggleBottomBox}>⬇</button>
+      <button class="right-button" on:click={toggleRightBox}>⟶</button>
     </div>
     <div class="box2-side">
-        <button class="top-button {bottomOpen ? 'flipped' : ''}" on:click={toggleBottomBox}>⬆</button>
+      <button class="left-button" on:click={toggleRightBox}>⟵</button>
     </div>
     <div class="box2-content content">
         <h1>{answer}</h1>
     </div>
-</div>
-
+  </div>
+  
