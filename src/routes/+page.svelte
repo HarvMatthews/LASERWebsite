@@ -252,8 +252,10 @@
         <h1>FAQ:</h1>
         <p>Some common questions commonly asked about LASER from prospective members.</p>
         <div class="separator"></div>
-        <Faq question={"How can I start a project?"}/>
-        <Faq question={"What sort of things do you do?"}/>
+        <Faq question={"How can I start a project?"} answer={"To start a project just come along and bring it up in a meeting."}/>
+        <Faq question={"Does it cost anything?"} answer={"No, participation in LASER does not cost anything apart from your time."}/>
+        <Faq question={"How do I join?"} answer={"As we're not affiliated with the Guild, we have no sign up requirements. Simply just show up to our meetings as listed below."}/>
+        <Faq question={"What sort of things do you do?"} answer={"Within LASER we mainly work to develop skills outside of the typically taught curriculum through projects, in addition we offer a range of FYP for third year EEE students."}/>
         <Faq question={"I lack technical skills/knowledge, can I still take part?"} answer={"We encourage anyone regardless of course and background with an interest to join, as our projects often cover a wide range of fields."}/>
         
         
