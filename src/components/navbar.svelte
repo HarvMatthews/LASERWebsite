@@ -1,8 +1,12 @@
+<!--Peter Hamilton 21/2/24-->
 <!-- Navbar.svelte -->
 <script>
     import logo from '$lib/assets/logo-2.png';
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
+
+    import Dropdown from './resources/dropdown.svelte';
+    
   </script>
   
   <style>
@@ -18,6 +22,17 @@
       padding: 1vh; 
       margin: 0; 
       border-bottom: 1px solid rgb(255, 255, 255);
+    }
+
+    .navbar-brand a {
+      text-decoration: none;
+    }
+
+    .navbar-brand {
+      transition: all 0.3s ease;
+    }
+    .navbar-brand:hover {
+      transform: scale(1.05)
     }
   
     .logo-container {
@@ -101,21 +116,21 @@
   
   <div class="navbar">
     <div class="navbar-brand">
-      <div class="logo-container">
+      <a href="/"><div class="logo-container">
         <img src={logo} alt="LASER Logo">
         <span class="logo-text">LASER</span>
-      </div>
+      </div></a>
     </div>
     <div class="navbar-links">
       <ul>
         <li>
-          <a class="nav-link" href="/" rel="prefetch">Home</a>
+          <Dropdown />
         </li>
         <li>
-          <a class="nav-link" href="settings" rel="prefetch">Projects</a>
+          <a class="nav-link" href="/projects" rel="prefetch">Projects</a>
         </li>
         <li>
-          <a class="nav-link" href="about" rel="prefetch">Contact</a>
+          <a class="nav-link" href="/about" rel="prefetch">About</a>
         </li>
       </ul>
     </div>

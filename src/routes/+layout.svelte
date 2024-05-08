@@ -1,11 +1,14 @@
 <!-- Layout.svelte -->
-<script>
+<script lang="ts">
+    import {fade} from 'svelte/transition'
+    import {quintIn, quintOut} from 'svelte/easing'
+    export let data
+
     import { onMount } from 'svelte';
 	import Navbar from '../components/navbar.svelte';
     import TempNavBar from '../components/tempnavbar.svelte';
 	import Footer from '../components/footer.svelte';
 
-	import Index from './index.svelte';
 	import Tempnavbar from '../components/tempnavbar.svelte';
 
     function setViewportMetaTag() {
@@ -28,7 +31,7 @@
     .page {
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
+        min-height: auto;
         position: relative;
         max-width: 100%;
         margin: 0; 
@@ -38,6 +41,10 @@
     main {
         flex: 1;
     }
+
+    .content-body {
+        background-color: #111111;
+    }
     @media (max-width: 768px) {
         .page {
         padding: 70px 0px 0px 0px;
@@ -46,11 +53,15 @@
 </style>
 
 <div class="body">
-    <Tempnavbar />
+    <Navbar />
     <div class="page">
         <main>
             <article class="content-body"> 
-                <Index></Index>
+                {#key data.url}
+                <div in:fade={{delay: 300, duration: 600, easing: quintIn}} out:fade={{delay: 150, duration: 300, easing: quintOut}}>
+                    <slot />
+                </div>
+                {/key}
             </article>
         </main>
     </div>

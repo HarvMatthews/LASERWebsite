@@ -1,8 +1,10 @@
-<!--Peter Hamilton 27/2/24-->
 <!-- App.svelte -->
-<script>
+<script lang="ts">
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
+
+    export let question:String;
+    export let answer:String;
     
     let rightOpen = false;
   
@@ -13,11 +15,12 @@
   
   <style>
     .box-container {
-      margin: 10px auto;
+      color: #000000;
+      margin: 0px auto;
       padding: 20px;
       border-radius: 10px;
       width: 90%;
-      height: 300px;
+      height: 130px;
       display: flex;
       align-items: stretch;
     }
@@ -37,14 +40,13 @@
     }
   
     .right-open .box2-content {
-      flex: 4;
+      flex: 6;
       padding: 30px 40px;
       opacity: 1;
     }
   
     .box1-content {
       transition: all 0.3s ease-out;
-      color: #ffffff;
       overflow: hidden;
       font-family: 'Exo 2 Variable';
       border-top-left-radius: 10px;
@@ -52,7 +54,6 @@
     }
     .box1-side {
       transition: all 0.3s ease-out;
-      color: rgb(0, 0, 0);
       overflow: hidden;
       font-family: 'Exo 2 Variable';
       border-top-right-radius: 10px;
@@ -61,7 +62,6 @@
     }
     .box2-content {
       transition: all 0.3s ease-out;
-      color: #ffffff;
       overflow: hidden;
       font-family: 'Exo 2 Variable';
       border-top-right-radius: 10px;
@@ -69,7 +69,6 @@
     }
     .box2-side {
       transition: all 0.3s ease-out;
-      color: #f1f1f1;
       overflow: hidden;
       font-family: 'Exo 2 Variable';
       border-top-left-radius: 10px;
@@ -84,8 +83,8 @@
     }
   
     .box1-content {
-      background: #111111;
-      flex: 4;
+      background: #ffffff;
+      flex: 6;
       padding: 30px 40px;
     }
 
@@ -95,17 +94,17 @@
     }
     
     .box1-side {
-      background: #f1f1f1;
+      background: #111111;
       flex: 2;
     }
   
     .box2-side {
-      background: #f1f1f1;
+      background: #111111;
       flex: 0;
     }
   
     .box2-content {
-      background: #111111;
+      background: #ffffff;
       flex: 0;
     }
 
@@ -147,11 +146,7 @@
   
   <div class="box-container {rightOpen ? 'right-open' : ''}">
     <div class="box1-content content">
-      <h1>Students</h1>
-      <p>Weekly:</p>
-      <p2 style="font-weight:bold">Meetings:</p2> <p2>Thursdays - 17:00 | EEE Building, Lecture theatre E2.</p2>
-      <br><p2 style="font-weight:bold">Arduino workshops:</p2> <p2>Wednesdays - 13:00 | EEE Building, Room 402.</p2>
-      <br><p2 style="font-weight:bold; font-style:italic">(Check Instagram for confirmation meeting is going ahead on the day).</p2>
+      <h1>{question}</h1>
     </div>
     <div class="box1-side">
       <button class="right-button" on:click={toggleRightBox}>⟶</button>
@@ -160,9 +155,7 @@
       <button class="left-button" on:click={toggleRightBox}>⟵</button>
     </div>
     <div class="box2-content content">
-      <h1>Industry and companies</h1>
-      <p>If you represent a company or are an employee acting on behalf of your employer, and you wish to engage with LASER by offering a seminar or contributing to our projects, please don't hesitate to get in touch. 
-        You can reach us at: <a href="mailto:laser@liverpool.ac.uk">laser@liverpool.ac.uk</a></p>
+        <h1>{answer}</h1>
     </div>
   </div>
   

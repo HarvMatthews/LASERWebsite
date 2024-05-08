@@ -1,3 +1,4 @@
+<!--Peter Hamilton 21/2/24-->
 <script>
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
@@ -25,6 +26,7 @@
         margin: 0; 
         max-width: 100%;
         border-top: 1px solid rgb(255, 255, 255);
+        height: auto;
     }
 
     .footer p {

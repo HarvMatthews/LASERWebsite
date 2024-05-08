@@ -1,3 +1,5 @@
+<!--Peter Hamilton 21/2/24--> 
+<!--Index.svelte-->
 <script>
     import rocketproject from '$lib/assets/icons/projects/rocket-team.svg';
     import roverproject from '$lib/assets/icons/projects/rover-team.svg';
@@ -7,6 +9,7 @@
     import '@fontsource-variable/orbitron';
 
     import Getinvolved from '../components/index/getinvolved.svelte';
+	import Faq from '../components/index/faq.svelte';
 
      function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
@@ -20,6 +23,13 @@
 </script>
 
 <style>
+    .body {
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+    }
+    
     .header {
         background-image: url('/src/lib/assets/background-2.jpg');
         background-size: cover;
@@ -207,20 +217,13 @@
 }
 </style>
 
+<div class="body">
 <div class="header">
     <h1>Liverpool Association For Space Engineering And Research</h1>
     <h2>A UOL student-run engineering society based in the Electrical and Electronics Engineering department</h2>
     <div class="buttons">
         <button class="button"on:click={scrollToGetInvolved}>Get involved</button>
         <button class="button"on:click={scrollToProjects}>Our projects</button>
-    </div>
-</div>
-<div class="content-row">
-    <div class="container">
-    <h1>About us:</h1>
-    <p>LASER is a student-run Engineering society based in the Electrical and Electronics Engineering department. We run multiple projects that span a broad range of fields and welcome new people to join at all times. All backgrounds and courses are welcome - even people who aren't interested in the technical side.
-        Some of our current initiatives include an entry into the UKSEDS rocketry competition, microcontroller/personal project workshops, visits to engineering companies, and talks from experts in the industry.
-        We want to create a friendly and social atmosphere where students can not only develop their engineering and management skills, but also gain important industrial skills that students don’t tend to learn during their time in University.</p>
     </div>
 </div>
 <div class="content-row" id="projects-header">
@@ -245,10 +248,25 @@
         </div>
     </div>
 </div>
+<div class="content-row">
+    <div class="container">
+        <h1>FAQ:</h1>
+        <p>Some common questions commonly asked about LASER from prospective members.</p>
+        <div class="separator"></div>
+        <Faq question={"How can I start a project?"} answer={"To start a project just come along and bring it up in a meeting."}/>
+        <Faq question={"Does it cost anything?"} answer={"No, participation in LASER does not cost anything apart from your time."}/>
+        <Faq question={"How do I join?"} answer={"As we're not affiliated with the Guild, we have no sign up requirements. Simply just show up to our meetings as listed below."}/>
+        <Faq question={"What sort of things do you do?"} answer={"Within LASER we mainly work to develop skills outside of the typically taught curriculum through projects, in addition we offer a range of FYP for third year EEE students."}/>
+        <Faq question={"I lack technical skills/knowledge, can I still take part?"} answer={"We encourage anyone regardless of course and background with an interest to join, as our projects often cover a wide range of fields."}/>
+        
+        
+    </div>
+</div>
 <div class="content-row" id="getinvolved-header">
     <h1>How to get involved:</h1>
     <p>If you are a student or a company and you want to get involved with LASER, we host events and weekly meetings throughout the year.</p>
     <div class="separator"></div>
     <Getinvolved/>
+</div>
 </div>
 
