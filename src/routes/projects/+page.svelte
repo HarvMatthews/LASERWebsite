@@ -4,6 +4,7 @@
     import rocketproject from '$lib/assets/icons/projects/rocket-team.svg';
     import roverproject from '$lib/assets/icons/projects/rover-team.svg';
     import satcomproject from '$lib/assets/icons/projects/satellite.svg'
+    import logo from '$lib/assets/logo-2.png';
 
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
@@ -50,6 +51,7 @@
         font-size: 3vh;
         text-align: center;
         margin: 10px auto;
+        text-decoration: underline;
     }
 
     .wip p {
@@ -57,6 +59,13 @@
         font-size: 2.5vh;
         text-align: center;
         margin: 10px auto;
+        font-style: italic;
+    }
+
+    .wip img {
+        margin: 10px auto;
+        width: 50vh; 
+        height: auto;
     }
 
     .header h1 {
@@ -132,10 +141,11 @@
 
 <div class="body">
 <div class="header">
-    <h1>Liverpool Association For Space Engineering And Research</h1>
     <div class="wip">
+        <img src={logo} alt="LASER Logo">
         <h1>Work in progress:</h1>
         <p>For a list of our current projects check back later.</p>
+        
     </div>
 </div>
 </div>
