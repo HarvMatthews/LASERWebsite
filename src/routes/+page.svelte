@@ -27,6 +27,7 @@
         background-color: white;
         margin: 0;
         padding: 0;
+        min-height: 100vh;
     }
     
     .header {
@@ -266,7 +267,6 @@
     <p>If you are a student or a company and you want to get involved with LASER, we host events and weekly meetings throughout the year.</p>
     <div class="separator"></div>
     <Getinvolved/>
-    
 </div>
 </div>
 

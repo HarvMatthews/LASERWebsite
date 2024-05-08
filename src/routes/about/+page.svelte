@@ -10,6 +10,7 @@
         background-color: white;
         margin: 0;
         padding: 0;
+        min-height: 100vh;
     }
 
     .header {

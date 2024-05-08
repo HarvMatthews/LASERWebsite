@@ -26,6 +26,7 @@
         margin: 0; 
         max-width: 100%;
         border-top: 1px solid rgb(255, 255, 255);
+        height: auto;
     }
 
     .footer p {
