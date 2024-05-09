@@ -1,24 +1,10 @@
 <!--Peter Hamilton 21/2/24--> 
 <!--Index.svelte-->
 <script>
-    import rocketproject from '$lib/assets/icons/projects/rocket-team.svg';
-    import roverproject from '$lib/assets/icons/projects/rover-team.svg';
-    import satcomproject from '$lib/assets/icons/projects/satellite.svg'
     import logo from '$lib/assets/logo-2.png';
 
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
-
-
-     function scrollToProjects() {
-        const projectsHeader = document.getElementById('projects-header');
-        projectsHeader?.scrollIntoView({ behavior: 'smooth' });
-    }
-    function scrollToGetInvolved() {
-        const getinvolvedheader = document.getElementById('getinvolved-header');
-        getinvolvedheader?.scrollIntoView({behavior: 'smooth'});
-    }
-
 </script>
 
 <style>
