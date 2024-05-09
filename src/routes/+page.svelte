@@ -2,7 +2,7 @@
 <!--Index.svelte-->
 <script>
     import rocketproject from '$lib/assets/icons/projects/rocket-team.svg';
-    import roverproject from '$lib/assets/icons/projects/rover-team.svg';
+    import weatherstation from '$lib/assets/icons/projects/weather-station.svg';
     import satcomproject from '$lib/assets/icons/projects/satellite.svg'
 
     import '@fontsource-variable/exo-2';
@@ -243,8 +243,8 @@
         
         <div class="vseparator"></div>
         <div class="item-container">
-            <img src={roverproject}>
-            <p>Rover team - UKSEDS</p>
+            <img src={weatherstation}>
+            <p>Remote weather station</p>
         </div>
     </div>
 </div>
