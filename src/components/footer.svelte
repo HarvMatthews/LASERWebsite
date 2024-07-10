@@ -1,5 +1,6 @@
 <!--Peter Hamilton 21/2/24-->
 <script>
+    import { onMount } from 'svelte';
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 
@@ -9,6 +10,20 @@
     import whatsapp from '$lib/assets/icons/whatsapp.svg';
     import discord from '$lib/assets/icons/discord.svg';
     import canvas from '$lib/assets/icons/canvas.svg';
+
+    import Attribution from './index/attribution.svelte';
+
+    let showAttribution = false;
+
+    onMount(() => {showAttribution = false;});
+    
+    function openAttribution() {
+        showAttribution = true;
+    }
+
+    function handleAttributionClose() {
+        showAttribution = false;
+    }
 
     const currentYear = new Date().getFullYear();
 </script>
@@ -85,6 +100,39 @@
         top: 10%; 
     }
 
+    .footer-links {
+        display: flex;
+        justify-content: space-evenly; 
+        align-items: center;
+        width:  50%;
+        padding: 2vh;
+    }
+
+    .footer-links a {
+        flex-grow: 1; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-family: 'Orbitron Variable', sans-serif;
+        color: white;
+    }
+
+    .footer-links a:hover {
+        color: #58a6ff;
+    }
+
+    .footer-links a:not(:last-child)::after {
+        content: "";
+        border-right: 1px solid white;
+        height: 80%;
+        position: absolute;
+        right: 0; 
+        top: 10%; 
+    }
+
     @media (max-width: 768px) {
       .footer-icons {
         display: flex;
@@ -93,6 +141,14 @@
         width: 100%; 
         padding: 2vh;
     }
+    .footer-links {
+        display: flex;
+        justify-content: space-evenly; 
+        align-items: center;
+        width:  100%;
+        padding: 2vh;
+    }
+    
     }
 </style>
 
@@ -104,8 +160,15 @@
         <a href="https://chat.whatsapp.com/Hs5zybaWLcEGTOO6DJMgoO"><img src={whatsapp} alt="WhatsApp"></a>
         <a href="https://discord.gg/8RZZe7E6FS"><img src={discord} alt="Discord"></a>
         <a href="https://liverpool.instructure.com/courses/55224"><img src={canvas} alt="Canvas"></a>
-
+    </div>
+    <div class="footer-links">
+        <a style="cursor: pointer;" on:click={openAttribution}>Attribution</a>
+        <a href="">Privacy Policy</a>
     </div>
     <p>&copy; LASER {currentYear}</p>
     <p2>Numqam Solum Volare</p2>
 </div>
+
+<Attribution show={showAttribution} on:close={handleAttributionClose}>
+    
+</Attribution>

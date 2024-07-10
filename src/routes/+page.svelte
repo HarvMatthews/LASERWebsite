@@ -10,6 +10,7 @@
 
     import Getinvolved from '../components/index/getinvolved.svelte';
 	import Faq from '../components/index/faq.svelte';
+    import Attribution from '../components/index/attribution.svelte';
 
      function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
@@ -42,19 +43,17 @@
     }
 
     .header h1 {
-      font-family: 'Orbitron Variable', sans-serif;
-      font-size: 4vh;
-      color: rgb(255, 255, 255);
-      padding: 20px;
-      margin: 10px auto;
+        font-family: 'Orbitron Variable', sans-serif;
+        padding: 20px;
+        font-size: 4rem;
+        margin: 10px 0;
     }
 
     .header h2 {
-      font-family: 'Exo 2 Variable';
-      font-size: 2vh;
-      color: rgb(255, 255, 255);
-      padding: 20px;
-      margin: 10px auto;
+        font-family: 'Exo 2 Variable';
+        padding: 20px;
+        font-size: 1.5rem;
+        margin: 10px 0;
     }
 
     .buttons {
