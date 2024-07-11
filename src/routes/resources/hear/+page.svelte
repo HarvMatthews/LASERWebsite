@@ -213,7 +213,7 @@
     <h1>HEAR Accreditation</h1>
     <h2>A formal degree transcript allowing for voluntary or academic work at LASER to be recorded, benefiting the student's record and enhancing employability.</h2>
     <div class="buttons">
-        <a href="https://www.hear.ac.uk/about">
+        <a href="https://www.hear.ac.uk/about.html">
             <button class="button">Find out more about HEAR records</button>
         </a>
     </div>
