@@ -221,7 +221,7 @@
 <div class="body">
 <div class="header">
     <h1>Liverpool Association For Space Engineering And Research</h1>
-    <h2>A UOL student-run engineering society based in the Electrical and Electronics Engineering department</h2>
+    <h2>A University of Liverpool student-run engineering society based in the Electrical and Electronics Engineering department.</h2>
     <div class="buttons">
         <button class="button"on:click={scrollToGetInvolved}>Get involved</button>
         <button class="button"on:click={scrollToProjects}>Our projects</button>

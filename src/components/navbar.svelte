@@ -10,7 +10,6 @@
   </script>
   
   <style>
-    /* Add your CSS styles here */
     .navbar {
       background: #111111; 
       display: flex;
@@ -18,7 +17,7 @@
       position: fixed;
       top: 0;
       width: 100%;
-      z-index: 1000;
+      z-index: 999;
       padding: 1vh; 
       margin: 0; 
       border-bottom: 1px solid rgb(255, 255, 255);

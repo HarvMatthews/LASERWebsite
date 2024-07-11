@@ -12,17 +12,25 @@
     import canvas from '$lib/assets/icons/canvas.svg';
 
     import Attribution from './index/attribution.svelte';
+    import Privacypolicy from './index/privacypolicy.svelte';
 
     let showAttribution = false;
+    let showPrivacyPolicy = false
 
-    onMount(() => {showAttribution = false;});
+    onMount(() => {showAttribution = false; showPrivacyPolicy = false;});
     
     function openAttribution() {
         showAttribution = true;
     }
+    function openPrivacyPolicy() {
+        showPrivacyPolicy = true;
+    }
 
     function handleAttributionClose() {
         showAttribution = false;
+    }
+    function handlePrivacyPolicyClose() {
+        showPrivacyPolicy = false;
     }
 
     const currentYear = new Date().getFullYear();
@@ -42,6 +50,7 @@
         max-width: 100%;
         border-top: 1px solid rgb(255, 255, 255);
         height: auto;
+        z-index: 999;
     }
 
     .footer p {
@@ -163,12 +172,11 @@
     </div>
     <div class="footer-links">
         <a style="cursor: pointer;" on:click={openAttribution}>Attribution</a>
-        <a href="">Privacy Policy</a>
+        <a style="cursor: pointer;" on:click={openPrivacyPolicy}>Privacy Policy</a>
     </div>
     <p>&copy; LASER {currentYear}</p>
     <p2>Numqam Solum Volare</p2>
 </div>
 
-<Attribution show={showAttribution} on:close={handleAttributionClose}>
-    
-</Attribution>
+<Attribution show={showAttribution} on:close={handleAttributionClose}></Attribution>
+<Privacypolicy show={showPrivacyPolicy} on:close={handlePrivacyPolicyClose}></Privacypolicy>
