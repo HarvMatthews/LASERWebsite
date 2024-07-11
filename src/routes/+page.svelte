@@ -45,7 +45,7 @@
     .header h1 {
         font-family: 'Orbitron Variable', sans-serif;
         padding: 20px;
-        font-size: 4rem;
+        font-size: 3rem;
         margin: 10px 0;
     }
 
@@ -175,17 +175,19 @@
 
     @media (max-width: 768px) {
         .header {
-        height: 400px;
+        height: 620px;
     }
 
     .header h1 {
         padding: 10px;
         margin: 15px auto;
+        font-size: 3rem;
     }
 
     .header h2 {
         padding: 10px;
         margin: 5px auto;
+        font-size: 1.5rem;
     }
 
     .buttons {
