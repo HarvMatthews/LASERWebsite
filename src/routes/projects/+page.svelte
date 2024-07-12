@@ -34,6 +34,7 @@
         text-decoration: underline;
         margin: 10px auto;
         color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
     .wip p {
@@ -43,6 +44,7 @@
         margin: 10px auto;
         color: white;
         font-style: italic;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
     .wip img {
