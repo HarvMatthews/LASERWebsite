@@ -11,8 +11,8 @@
     import discord from '$lib/assets/icons/discord.svg';
     import canvas from '$lib/assets/icons/canvas.svg';
 
-    import Attribution from './index/attribution.svelte';
-    import Privacypolicy from './index/privacypolicy.svelte';
+    import Attribution from './footer/attribution.svelte';
+    import Privacypolicy from './footer/privacypolicy.svelte';
 
     let showAttribution = false;
     let showPrivacyPolicy = false

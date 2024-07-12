@@ -10,7 +10,7 @@
 
     import Getinvolved from '../components/index/getinvolved.svelte';
 	import Faq from '../components/index/faq.svelte';
-    import Attribution from '../components/index/attribution.svelte';
+    import Attribution from '../components/footer/attribution.svelte';
 
      function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
@@ -47,6 +47,8 @@
         padding: 20px;
         font-size: 3rem;
         margin: 10px 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+
     }
 
     .header h2 {
@@ -54,6 +56,7 @@
         padding: 20px;
         font-size: 1.5rem;
         margin: 10px 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
     .buttons {
@@ -213,8 +216,6 @@
         flex: 0 0 auto; 
         min-width: 30%; 
     }
-    
-    
 }
 </style>
 
@@ -233,18 +234,18 @@
     <div class="separator"></div>
     <div class="item-rowcontainer">
         <div class="item-container">
-            <img src={rocketproject}>
+            <img src={rocketproject} alt="Rocket">
             <p>Rocket team - UKSEDS</p>
         </div>
         <div class="vseparator"></div>
         <div class="item-container">
-            <img src={satcomproject}>
+            <img src={satcomproject} alt="Satellite">
             <p>Satellite communications project</p>
         </div>
         
         <div class="vseparator"></div>
         <div class="item-container">
-            <img src={weatherstation}>
+            <img src={weatherstation} alt="Weather">
             <p>Remote weather station</p>
         </div>
     </div>
