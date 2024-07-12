@@ -8,25 +8,25 @@
 
     const teamMembers24 = [
         {
-            image: '/src/lib/assets/logo-3.png',
+            image: '/src/lib/assets/logo-2.png',
             name: 'TBA',
             position: 'CEO',
             degree: 'TBA'
         },
         {
-            image: '/src/lib/assets/logo-3.png',
+            image: '/src/lib/assets/logo-2.png',
             name: 'TBA',
             position: 'CFO',
             degree: 'TBA'
         },
         {
-            image: '/src/lib/assets/logo-3.png',
+            image: '/src/lib/assets/logo-2.png',
             name: 'TBA',
             position: 'CMO',
             degree: 'TBA'
         },
         {
-            image: '/src/lib/assets/logo-3.png',
+            image: '/src/lib/assets/logo-2.png',
             name: 'TBA',
             position: 'Lab Manager',
             degree: 'TBA'

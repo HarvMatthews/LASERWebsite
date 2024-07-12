@@ -27,14 +27,7 @@
       margin: 10px;
       padding: 20px;
       text-align: center;
-      transition: transform 0.3s, filter 0.3s;
-      cursor: pointer;
       flex: 0 0 40%;
-    }
-  
-    .card:hover {
-      transform: scale(1.05);
-      filter: invert(1);
     }
   
     .card img {
