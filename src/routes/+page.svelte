@@ -47,6 +47,8 @@
         padding: 20px;
         font-size: 3rem;
         margin: 10px 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+
     }
 
     .header h2 {
@@ -54,6 +56,7 @@
         padding: 20px;
         font-size: 1.5rem;
         margin: 10px 0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
     .buttons {

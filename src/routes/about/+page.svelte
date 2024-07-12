@@ -14,10 +14,10 @@
     }
 
     .header {
-        background-image: url('/src/lib/assets/background-2.jpg');
+        background-image: url('/src/lib/assets/about/header0.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 50% 35%;
+        background-position: 50% 80%;
         text-align: center;
         padding: 40px;
         color: white;
@@ -29,6 +29,8 @@
         padding: 20px;
         font-size: 3rem;
         margin: 10px 0;
+        z-index: 1;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
     .header h2 {
@@ -36,6 +38,8 @@
         padding: 20px;
         font-size: 1.5rem;
         margin: 10px 0;
+        z-index: 1;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
     .buttons {
@@ -156,8 +160,10 @@
 
 
     @media (max-width: 768px) {
-        .header {
-        height: 620px;
+
+    .header {
+        background-position: 50% 50%;
+        height: 350px;
     }
 
     .header h1 {

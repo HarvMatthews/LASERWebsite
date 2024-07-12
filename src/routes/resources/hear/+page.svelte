@@ -38,6 +38,7 @@
       color: rgb(255, 255, 255);
       padding: 20px;
       margin: 10px auto;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
     .header h2 {
@@ -46,6 +47,7 @@
       color: rgb(255, 255, 255);
       padding: 20px;
       margin: 10px auto;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
     .buttons {
