@@ -1,8 +1,36 @@
 <!--Peter Hamilton 21/2/24--> 
 <!--Index.svelte-->
-<script>
+<script lang="ts">
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
+
+    import Team24 from '../../components/about/committee.svelte';
+
+    const teamMembers24 = [
+        {
+            image: '/src/lib/assets/logo-3.png',
+            name: 'TBA',
+            position: 'CEO',
+            degree: 'TBA'
+        },
+        {
+            image: '/src/lib/assets/logo-3.png',
+            name: 'TBA',
+            position: 'CFO',
+            degree: 'TBA'
+        },
+        {
+            image: '/src/lib/assets/logo-3.png',
+            name: 'TBA',
+            position: 'CMO',
+            degree: 'TBA'
+        },
+        {
+            image: '/src/lib/assets/logo-3.png',
+            name: 'TBA',
+            position: 'Lab Manager',
+            degree: 'TBA'
+        }]
 </script>
 
 <style>
@@ -17,7 +45,7 @@
         background-image: url('/src/lib/assets/about/header0.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 50% 80%;
+        background-position: 50% 85%;
         text-align: center;
         padding: 40px;
         color: white;
@@ -212,9 +240,24 @@
 <div class="content-row">
     <div class="container">
     <h1>What is LASER?</h1>
+    <div class="separator"></div>
     <p>LASER is a student-run Engineering society based in the Electrical and Electronics Engineering department. We run multiple projects that span a broad range of fields and welcome new people to join at all times. All backgrounds and courses are welcome - even people who aren't interested in the technical side.
         Some of our current initiatives include an entry into the UKSEDS rocketry competition, microcontroller/personal project workshops, visits to engineering companies, and talks from experts in the industry.
         We want to create a friendly and social atmosphere where students can not only develop their engineering and management skills, but also gain important industrial skills that students don’t tend to learn during their time in University.</p>
+    </div>
+</div>
+<div class="content-row">
+    <h1>Our 2024/25 Committee:</h1>
+    <p>Members who are selected to run and organise LASER for the 2024/25 academic year.</p>
+    <div class="separator"></div>
+    <Team24 members={teamMembers24}/>
+</div>
+<div class="content-row">
+    <div class="container">
+        <h1>Our Funding sources:</h1>
+        <p>We would like to thank the following for providing financial support to LASER.</p>
+        <div class="separator"></div>
+        <p>We would like to acknowledge the generous financial support we have recieved, which has been instrumental in enabling us to run various projects and the purchase of equipment for our lab space. This has been made possible through the funding provided by the <strong>Moruzzi Fund</strong> and the <strong>University of Liverpool's Electrical Engineering and Electronics department</strong>.</p>
     </div>
 </div>
 </div>

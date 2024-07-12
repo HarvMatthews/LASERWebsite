@@ -25,11 +25,12 @@
       border-radius: 10px;
       width: 90%;
       max-width: auto;
-      background-color: #f8f9fa;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
       transition: all 0.3s ease;
       font-family: 'Exo 2 Variable';
       text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
   }
 
   .question {
@@ -38,8 +39,8 @@
       align-items: center;
       cursor: pointer;
       padding: 10px;
-      background: #111;
-      color: #fff;
+      background: #000000;
+      color: #ffffff;
       border-radius: 10px;
       font-size: 1rem;
       text-align: center;
@@ -52,8 +53,8 @@
       overflow: hidden;
       transition: max-height 0.3s ease, opacity 0.3s ease;
       padding: 0 10px;
-      background: #fff;
-      color: #111;
+      background: #ffffff;
+      color: #000000;
       border-radius: 0 0 10px 10px;
       margin-top: 5px;
       text-align: center;
