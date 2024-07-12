@@ -25,19 +25,17 @@
     }
 
     .header h1 {
-      font-family: 'Orbitron Variable', sans-serif;
-      font-size: 4vh;
-      color: rgb(255, 255, 255);
-      padding: 20px;
-      margin: 10px auto;
+        font-family: 'Orbitron Variable', sans-serif;
+        padding: 20px;
+        font-size: 3rem;
+        margin: 10px 0;
     }
 
     .header h2 {
-      font-family: 'Exo 2 Variable';
-      font-size: 2vh;
-      color: rgb(255, 255, 255);
-      padding: 20px;
-      margin: 10px auto;
+        font-family: 'Exo 2 Variable';
+        padding: 20px;
+        font-size: 1.5rem;
+        margin: 10px 0;
     }
 
     .buttons {
@@ -159,7 +157,7 @@
 
     @media (max-width: 768px) {
         .header {
-        height: 400px;
+        height: 620px;
     }
 
     .header h1 {

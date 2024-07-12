@@ -10,7 +10,7 @@
 
     import Getinvolved from '../components/index/getinvolved.svelte';
 	import Faq from '../components/index/faq.svelte';
-    import Attribution from '../components/index/attribution.svelte';
+    import Attribution from '../components/footer/attribution.svelte';
 
      function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
