@@ -252,4 +252,12 @@
     <div class="separator"></div>
     <Team24 members={teamMembers24}/>
 </div>
+<div class="content-row">
+    <div class="container">
+        <h1>Our Funding sources:</h1>
+        <p>We would like to thank the following for providing financial support to LASER.</p>
+        <div class="separator"></div>
+        <p>We would like to acknowledge the generous financial support we have recieved, which has been instrumental in enabling us to run various projects and the purchase of equipment for our lab space. This has been made possible through the funding provided by the <strong>Moruzzi Fund</strong> and the <strong>University of Liverpool's Electrical Engineering and Electronics department</strong>.</p>
+    </div>
+</div>
 </div>
