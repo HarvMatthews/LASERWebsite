@@ -17,7 +17,7 @@
         background-image: url('/src/lib/assets/about/header0.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 50% 80%;
+        background-position: 50% 85%;
         text-align: center;
         padding: 40px;
         color: white;
