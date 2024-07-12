@@ -213,8 +213,6 @@
         flex: 0 0 auto; 
         min-width: 30%; 
     }
-    
-    
 }
 </style>
 
