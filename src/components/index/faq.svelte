@@ -29,6 +29,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease;
       font-family: 'Exo 2 Variable';
+      text-align: center;
   }
 
   .question {
@@ -41,6 +42,7 @@
       color: #fff;
       border-radius: 10px;
       font-size: 1rem;
+      text-align: center;
 
   }
 
