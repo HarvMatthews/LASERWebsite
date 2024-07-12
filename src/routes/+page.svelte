@@ -233,18 +233,18 @@
     <div class="separator"></div>
     <div class="item-rowcontainer">
         <div class="item-container">
-            <img src={rocketproject}>
+            <img src={rocketproject} alt="Rocket">
             <p>Rocket team - UKSEDS</p>
         </div>
         <div class="vseparator"></div>
         <div class="item-container">
-            <img src={satcomproject}>
+            <img src={satcomproject} alt="Satellite">
             <p>Satellite communications project</p>
         </div>
         
         <div class="vseparator"></div>
         <div class="item-container">
-            <img src={weatherstation}>
+            <img src={weatherstation} alt="Weather">
             <p>Remote weather station</p>
         </div>
     </div>
