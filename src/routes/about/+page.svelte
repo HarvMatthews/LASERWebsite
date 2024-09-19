@@ -4,6 +4,7 @@
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 
+    import laserlogo from '/src/lib/assets/logo-2.png';
     import Team24 from '../../components/about/committee.svelte';
 
     const teamMembers24 = [
