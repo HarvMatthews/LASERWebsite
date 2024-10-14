@@ -149,8 +149,7 @@
     <div class="box1-content content">
       <h1>Students</h1>
       <p>Weekly:</p>
-      <p2 style="font-weight:bold">Meetings:</p2> <p2>Thursdays - 17:00 | EEE Building, Lecture theatre E2.</p2>
-      <br><p2 style="font-weight:bold">Arduino workshops:</p2> <p2>Wednesdays - 13:00 | EEE Building, Room 402.</p2>
+      <p2 style="font-weight:bold">Meetings:</p2> <p2>Thursdays - 17:00 | 502 Building, Flexible learning space 2 (1st floor).</p2>
       <br><p2 style="font-weight:bold; font-style:italic">(Check Instagram for confirmation meeting is going ahead on the day).</p2>
     </div>
     <div class="box1-side">
