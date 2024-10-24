@@ -3,6 +3,8 @@
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 
+    import hearTracker from '../../../lib/assets/pdf/HEAR/HEAR TRACKER 2024-25.pdf';
+
      function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
         projectsHeader?.scrollIntoView({ behavior: 'smooth' });
@@ -88,6 +90,23 @@
         border-radius: 10px;
         padding: 20px;
         margin: 10px auto;
+    }
+
+    .pdfcontainer {
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px auto;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        height: 110vh;
+    }
+
+    .pdfcontainer iframe {
+        border: none;
+        width: 100%;
+        height: 100vh;
     }
 
     .content-row h1 {
@@ -205,6 +224,15 @@
         flex: 0 0 auto; 
         min-width: 30%; 
     }
+
+    .pdfcontainer {
+        height: 60vh;
+    }
+
+    .pdfcontainer iframe {
+        width: 100%;
+        height: 50vh;
+    }
     
     
 }
@@ -244,8 +272,11 @@
             <h1>Work in an agile team environment:</h1>
             <p>Develop problem-solving, creativity, and time management skills while collaborating effectively in a fast-paced environment.</p>
         </div>
+        <div class="pdfcontainer">
+            <h1>Example HEAR Tracker:</h1>
+            <iframe src="{hearTracker}" />
+        </div>
         <div class="separator"></div>
-        <p>By actively participating in extracurricular activities, you can acquire valuable skills, make a positive impact, and stand out from the crowd.</p>
 </div>
 </div>
 
