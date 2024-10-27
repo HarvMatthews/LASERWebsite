@@ -277,6 +277,7 @@
             <iframe src="{hearTracker}" />
         </div>
         <div class="separator"></div>
+        <p>By actively participating in extracurricular activities, you can acquire valuable skills, make a positive impact, and stand out from the crowd.</p>
 </div>
 </div>
 
