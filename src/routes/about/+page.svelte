@@ -9,28 +9,40 @@
 
     const teamMembers24 = [
         {
-            image: '/src/lib/assets/logo-2.png',
-            name: 'TBA',
-            position: 'CEO',
+            image: {laserlogo},
+            name: 'Natasha',
+            position: 'President/CEO',
+            degree: 'Mechanical Engineering'
+        },
+        {
+            image: {laserlogo},
+            name: 'Alicia',
+            position: 'Vice President/COO',
+            degree: 'Aerospace Engineering'
+        },
+        {
+            image: {laserlogo},
+            name: 'Nouran',
+            position: 'Treasurer/CFO',
+            degree: 'Electrical & Electronic Engineering'
+        },
+        {
+            image: {laserlogo},
+            name: 'Aurora',
+            position: 'Lab Safety Officer/Manager',
+            degree: 'Electrical & Electronic Engineering'
+        },
+        {
+            image: {laserlogo},
+            name: 'Joshua',
+            position: 'Outreach Officer',
             degree: 'TBA'
         },
         {
-            image: '/src/lib/assets/logo-2.png',
-            name: 'TBA',
-            position: 'CFO',
-            degree: 'TBA'
-        },
-        {
-            image: '/src/lib/assets/logo-2.png',
-            name: 'TBA',
-            position: 'CMO',
-            degree: 'TBA'
-        },
-        {
-            image: '/src/lib/assets/logo-2.png',
-            name: 'TBA',
-            position: 'Lab Manager',
-            degree: 'TBA'
+            image: {laserlogo},
+            name: 'Kitt',
+            position: 'Software Engineer/IT',
+            degree: 'Computer Science'
         }]
 </script>
 
