@@ -30,7 +30,7 @@
             image: {laserlogo},
             name: 'Aurora',
             position: 'Lab Safety Officer/Manager',
-            degree: 'Electrical & Electronic Engineering'
+            degree: 'Mechatronics & Robotic Systems'
         },
         {
             image: {laserlogo},
@@ -42,7 +42,7 @@
             image: {laserlogo},
             name: 'Joshua',
             position: 'Outreach Officer',
-            degree: 'TBA'
+            degree: 'Aerospace Engineering'
         },
         {
             image: {laserlogo},
