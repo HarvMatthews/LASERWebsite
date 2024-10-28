@@ -34,6 +34,12 @@
         },
         {
             image: {laserlogo},
+            name: 'Karl',
+            position: 'Technical Advisor/CTO',
+            degree: 'Aerospace Engineering'
+        },
+        {
+            image: {laserlogo},
             name: 'Joshua',
             position: 'Outreach Officer',
             degree: 'TBA'
