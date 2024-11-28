@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-    import test from '../../../lib/assets/newsletter/week10/week10.png';
+    import test from '../../../public/newsletter/week10/week10.png';
     
     function openNewsletter(imageUrl : string) {
     goto(imageUrl.replace('.png', '.pdf'))

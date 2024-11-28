@@ -3,7 +3,7 @@
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 
-    import hearTracker from '../../../lib/assets/pdf/HEAR/HEAR TRACKER 2024-25.pdf';
+    import hearTracker from '../../../public/pdf/HEAR/HEAR TRACKER 2024-25.pdf';
 
      function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
