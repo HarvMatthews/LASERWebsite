@@ -58,5 +58,7 @@
     <button class="nav-link">Resources</button>
     <div class="dropdown-content">
       <a href="/resources/hear">HEAR Accreditation</a>
+      <a href="/resources/newsletter">Newsletter</a>
+
     </div>
   </div>
