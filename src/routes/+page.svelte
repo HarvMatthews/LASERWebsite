@@ -13,7 +13,7 @@
     import Attribution from '../components/footer/attribution.svelte';
     import NewsletterGalleryItem from '../components/newsletter/galleryitem.svelte'
 	import Galleryitem from '../components/newsletter/galleryitem.svelte';
-    import test from '../lib/assets/newsletter/week10/week10.pdf'
+    import test from '../public/newsletter/week10/week10.png'
 
      function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
@@ -260,7 +260,7 @@
     <div class="item-rowcontainer">
         <div class="gallery-container">
             <div class="gallery-item">
-              <Galleryitem url={"../src/lib/assets/newsletter/week10/week10.png"}/>
+              <Galleryitem url={test}/>
             </div>
         </div>
     </div>
