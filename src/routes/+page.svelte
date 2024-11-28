@@ -8,14 +8,15 @@
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 
+    import week10 from '$lib/assets/newsletter/week10/week10.png';
+
     import Getinvolved from '../components/index/getinvolved.svelte';
 	import Faq from '../components/index/faq.svelte';
     import Attribution from '../components/footer/attribution.svelte';
     import NewsletterGalleryItem from '../components/newsletter/galleryitem.svelte'
 	import Galleryitem from '../components/newsletter/galleryitem.svelte';
-    import test from '../public/newsletter/week10/week10.png'
 
-     function scrollToProjects() {
+    function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
         projectsHeader?.scrollIntoView({ behavior: 'smooth' });
     }
@@ -260,7 +261,7 @@
     <div class="item-rowcontainer">
         <div class="gallery-container">
             <div class="gallery-item">
-              <Galleryitem url={test}/>
+              <Galleryitem url={week10}/>
             </div>
         </div>
     </div>
