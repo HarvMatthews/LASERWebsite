@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-    import test from '../../../public/newsletter/week10/week10.png';
+  import week10 from '$lib/assets/newsletter/week10/week10.png';
     
     function openNewsletter(imageUrl : string) {
     goto(imageUrl.replace('.png', '.pdf'))
@@ -308,8 +308,8 @@
         </div>
         <div class="gallery-container">
             <div class="gallery-item">
-              <img src={test} alt="Image 1">
-              <div class="overlay" on:click={() => openNewsletter(test)}></div>
+              <img src={week10} alt="Image 1">
+              <div class="overlay" on:click={() => openNewsletter(week10)}></div>
             </div>
   </div>
 </div>
