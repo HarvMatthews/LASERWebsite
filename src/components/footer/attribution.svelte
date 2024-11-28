@@ -134,7 +134,7 @@
           <h1>Attribution:</h1>
           <p>The LASER Website is developed and maintained by:</p>
           <div class="separator"></div>
-          <a href="https://www.linkedin.com/in/phamilton360/">Peter Hamilton</a>
+          <a href="https://www.linkedin.com/in/phamilton360/">Kitt Hamilton</a>
       </div>
   </div>
   <div class="button-container">

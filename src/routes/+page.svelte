@@ -11,6 +11,9 @@
     import Getinvolved from '../components/index/getinvolved.svelte';
 	import Faq from '../components/index/faq.svelte';
     import Attribution from '../components/footer/attribution.svelte';
+    import NewsletterGalleryItem from '../components/newsletter/galleryitem.svelte'
+	import Galleryitem from '../components/newsletter/galleryitem.svelte';
+    import test from '../lib/assets/newsletter/week10/week10.pdf'
 
      function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
@@ -177,6 +180,17 @@
         color: white;
     }
 
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      margin: 20px auto;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+
+    }
+
 
     @media (max-width: 768px) {
         .header {
@@ -218,6 +232,15 @@
         flex: 0 0 auto; 
         min-width: 30%; 
     }
+
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      margin: 20px auto;
+      background-color: #f1f1f1;
+    }
 }
 </style>
 
@@ -231,24 +254,14 @@
     </div>
 </div>
 <div class="content-row" id="projects-header">
-    <h1>Showcase of some of our ongoing projects:</h1>
-    <p>We run multiple projects that span a broad range of fields. All students of different backgrounds and courses are welcome to join at all times - even people who aren't interested in the technical side.</p>
+    <h1>Our weekly newsletter:</h1>
+    <p>A showcase of weekly progress on projects, events and talks.</p>
     <div class="separator"></div>
     <div class="item-rowcontainer">
-        <div class="item-container">
-            <img src={rocketproject} alt="Rocket">
-            <p>Rocket team - UKSEDS</p>
-        </div>
-        <div class="vseparator"></div>
-        <div class="item-container">
-            <img src={satcomproject} alt="Satellite">
-            <p>Satellite communications project</p>
-        </div>
-        
-        <div class="vseparator"></div>
-        <div class="item-container">
-            <img src={weatherstation} alt="Weather">
-            <p>Remote weather station</p>
+        <div class="gallery-container">
+            <div class="gallery-item">
+              <Galleryitem url={"../src/lib/assets/newsletter/week10/week10.png"}/>
+            </div>
         </div>
     </div>
 </div>
