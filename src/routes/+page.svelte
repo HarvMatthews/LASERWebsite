@@ -8,7 +8,7 @@
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 
-    import week10 from '$lib/assets/newsletter/week10/week10.png';
+    import week10 from '/assets/newsletter/week10/week10.png';
 
     import Getinvolved from '../components/index/getinvolved.svelte';
 	import Faq from '../components/index/faq.svelte';
