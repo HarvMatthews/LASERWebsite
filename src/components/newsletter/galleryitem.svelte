@@ -5,6 +5,14 @@
     function openNewsletter(imageUrl : string) {
         goto(imageUrl.replace('.png', '.pdf'))
     }
+
+    function getOverlayDescription(imageUrl: string): string {
+		const fileName = imageUrl.split('/').pop()?.replace('.png', '');
+		if (fileName?.toLowerCase().includes('week')) {
+			return fileName.replace('week', 'Week ');
+		}
+		return ''; 
+	  }
 </script>
 <style>
 .gallery-item {
@@ -61,5 +69,5 @@
 </style>
 <div class="gallery-item">
     <img src={url} alt="Image 1">
-    <div class="overlay" on:click={() => openNewsletter(url)}></div>
+    <div class="overlay" on:click={() => openNewsletter(url)}>{getOverlayDescription(url)}</div>
   </div>
