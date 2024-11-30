@@ -251,7 +251,6 @@
     <h2>A University of Liverpool student-run engineering society based in the Electrical and Electronics Engineering department.</h2>
     <div class="buttons">
         <button class="button"on:click={scrollToGetInvolved}>Get involved</button>
-        <button class="button"on:click={scrollToProjects}>Our projects</button>
     </div>
 </div>
 <div class="content-row" id="projects-header">
