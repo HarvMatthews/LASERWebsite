@@ -49,6 +49,12 @@
             name: 'Kitt',
             position: 'Software Engineer/IT',
             degree: 'Computer Science'
+        },
+        {
+            image: {laserlogo},
+            name: 'Francis',
+            position: 'Secretary',
+            degree: 'Computer Science'
         }]
 </script>
 
