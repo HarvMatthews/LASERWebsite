@@ -1,11 +1,7 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
   import week10 from '/assets/newsletter/week10/week10.png';
-    
-    function openNewsletter(imageUrl : string) {
-    goto(imageUrl.replace('.png', '.pdf'))
-  };
-  
+  import Galleryitem from '../../../components/newsletter/galleryitem.svelte';
 </script>
 <style>
         .body {
@@ -138,10 +134,7 @@
         <h2>Archive of past released newsletters.</h2>
         </div>
         <div class="gallery-container">
-            <div class="gallery-item">
-              <img src={week10} alt="Image 1">
-              <div class="overlay" on:click={() => openNewsletter(week10)}></div>
-            </div>
+          <Galleryitem url={week10}/>
   </div>
 </div>
 
