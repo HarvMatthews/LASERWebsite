@@ -50,7 +50,7 @@
 
     .gallery-container:has(.gallery-item:nth-child(1):only-child) {
       justify-content: center;
-      max-width: 300px;
+      max-width: 400px;
       margin: 0 auto;
     }
   
