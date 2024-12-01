@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+  import week11 from '/assets/newsletter/week11/week11.png';
   import week10 from '/assets/newsletter/week10/week10.png';
   import Galleryitem from '../../../components/newsletter/galleryitem.svelte';
 </script>
@@ -81,6 +82,7 @@
         <h2>Archive of past released newsletters.</h2>
         </div>
         <div class="gallery-container">
+          <Galleryitem url={week11}/>
           <Galleryitem url={week10}/>
   </div>
 </div>
