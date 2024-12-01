@@ -163,7 +163,7 @@
 
 <div class="footer">
     <div class="footer-icons">
-        <a href="https://www.instagram.com/uol_laser/"><img src={instagram} alt="Instagram"></a>
+        <a href="https://www.instagram.com/laser_uol/"><img src={instagram} alt="Instagram"></a>
         <a href="https://www.linkedin.com/company/laser-liverpool/"><img src={linkedin} alt="LinkedIn"></a>
         <a href="mailto:laser@liverpool.ac.uk"><img src={email} alt="Email"></a>
         <a href="https://chat.whatsapp.com/Hs5zybaWLcEGTOO6DJMgoO"><img src={whatsapp} alt="WhatsApp"></a>

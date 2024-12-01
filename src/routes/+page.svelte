@@ -8,12 +8,11 @@
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 
-    import week10 from '/assets/newsletter/week10/week10.png';
+    import week11 from '/assets/newsletter/week11/week11.png';
 
     import Getinvolved from '../components/index/getinvolved.svelte';
 	import Faq from '../components/index/faq.svelte';
     import Attribution from '../components/footer/attribution.svelte';
-    import NewsletterGalleryItem from '../components/newsletter/galleryitem.svelte'
 	import Galleryitem from '../components/newsletter/galleryitem.svelte';
 
     function scrollToProjects() {
@@ -251,7 +250,6 @@
     <h2>A University of Liverpool student-run engineering society based in the Electrical and Electronics Engineering department.</h2>
     <div class="buttons">
         <button class="button"on:click={scrollToGetInvolved}>Get involved</button>
-        <button class="button"on:click={scrollToProjects}>Our projects</button>
     </div>
 </div>
 <div class="content-row" id="projects-header">
@@ -261,7 +259,7 @@
     <div class="item-rowcontainer">
         <div class="gallery-container">
             <div class="gallery-item">
-              <Galleryitem url={week10}/>
+              <Galleryitem url={week11}/>
             </div>
         </div>
     </div>
