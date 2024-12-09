@@ -47,7 +47,7 @@
         {
             image: {laserlogo},
             name: 'Kitt',
-            position: 'Software Engineer/IT',
+            position: 'Software/IT Officer',
             degree: 'Computer Science'
         },
         {
