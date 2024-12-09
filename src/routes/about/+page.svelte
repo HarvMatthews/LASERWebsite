@@ -40,6 +40,12 @@
         },
         {
             image: {laserlogo},
+            name: 'Vacant',
+            position: 'Outreach Officer',
+            degree: 'N/A'
+        },
+        {
+            image: {laserlogo},
             name: 'Kitt',
             position: 'Software Engineer/IT',
             degree: 'Computer Science'
