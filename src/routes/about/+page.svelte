@@ -40,14 +40,14 @@
         },
         {
             image: {laserlogo},
-            name: 'Joshua',
+            name: 'Vacant',
             position: 'Outreach Officer',
-            degree: 'Aerospace Engineering'
+            degree: 'N/A'
         },
         {
             image: {laserlogo},
             name: 'Kitt',
-            position: 'Software Engineer/IT',
+            position: 'Software/IT Officer',
             degree: 'Computer Science'
         },
         {
