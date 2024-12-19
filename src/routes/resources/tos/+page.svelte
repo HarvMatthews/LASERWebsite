@@ -192,7 +192,7 @@
             <iframe src="{laserComplaintsSOP}" />
         </div>
         <div class="separator"></div>
-        <p>If you have any questions regarding either LASER's TOS or complaints SOP, do not hesitate to get in touch with committee.</p>
+        <p>If you have any questions regarding either LASER's TOS or complaints SOP, do not hesitate to get in touch at laser@liverpool.ac.uk.</p>
 </div>
 </div>
 
