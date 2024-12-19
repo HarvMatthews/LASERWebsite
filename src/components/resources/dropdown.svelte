@@ -59,6 +59,6 @@
     <div class="dropdown-content">
       <a href="/resources/hear">HEAR Accreditation</a>
       <a href="/resources/newsletter">Newsletter</a>
-
+      <a href="/resources/tos">LASER TOS and SOP</a>
     </div>
   </div>
