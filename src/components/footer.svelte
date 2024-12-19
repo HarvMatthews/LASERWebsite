@@ -172,7 +172,7 @@
     </div>
     <div class="footer-links">
         <a style="cursor: pointer;" on:click={openAttribution}>Attribution</a>
-        <a style="cursor: pointer;" on:click={openPrivacyPolicy}>Privacy Policy</a>
+        <a style="cursor: pointer;" on:click={openPrivacyPolicy}>LASER TOS</a>
     </div>
     <p>&copy; LASER {currentYear}</p>
     <p2>Numqam Solum Volare</p2>
