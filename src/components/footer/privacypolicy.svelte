@@ -221,11 +221,11 @@
           
               <h2>Financial Dispute Resolution</h2>
               <p>To resolve financial disputes:</p>
-              <ol>
+              <ul>
                   <li>Members must submit concerns in writing to the Society President.</li>
                   <li>The President and Chief Financial Officer(s) will review and respond.</li>
                   <li>Unresolved issues may escalate to a formal committee meeting.</li>
-              </ol>
+              </ul>
           
               <h2>Reporting Violations</h2>
               <ul>
