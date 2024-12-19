@@ -171,7 +171,7 @@
         <a href="https://liverpool.instructure.com/courses/55224"><img src={canvas} alt="Canvas"></a>
     </div>
     <div class="footer-links">
-        <a style="cursor: pointer;" on:click={openAttribution}>Attribution</a>
+        <a style="cursor: pointer;" href="https://www.linkedin.com/in/phamilton360">Attribution</a>
         <a style="cursor: pointer;" on:click={openPrivacyPolicy}>LASER TOS</a>
     </div>
     <p>&copy; LASER {currentYear}</p>
