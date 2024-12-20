@@ -15,6 +15,8 @@
     import Attribution from '../components/footer/attribution.svelte';
 	import Galleryitem from '../components/newsletter/galleryitem.svelte';
 
+    import merch from '../lib/assets/merch.png'
+
     function scrollToProjects() {
         const projectsHeader = document.getElementById('projects-header');
         projectsHeader?.scrollIntoView({ behavior: 'smooth' });
@@ -32,6 +34,38 @@
         margin: 0;
         padding: 0;
         min-height: 100vh;
+    }
+
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      margin: 20px auto;
+      background-color: #ffffff;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, filter 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+      filter: invert(1);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+      border-radius: 10px;
     }
     
     .header {
@@ -234,12 +268,7 @@
     }
 
     .gallery-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 20px;
-      padding: 20px;
-      margin: 20px auto;
-      background-color: #f1f1f1;
+      gap: 10px;
     }
 }
 </style>
@@ -253,15 +282,13 @@
     </div>
 </div>
 <div class="content-row" id="projects-header">
-    <h1>Our weekly newsletter:</h1>
-    <p>A showcase of weekly progress on projects, events and talks.</p>
-    <div class="separator"></div>
-    <div class="item-rowcontainer">
-        <div class="gallery-container">
+    <div class="gallery-container">
+            <Galleryitem url={week11}/>
             <div class="gallery-item">
-              <Galleryitem url={week11}/>
+                <a href="https://payments.liv.ac.uk/product-catalogue/uol-merchandise/school-of-electrical-engineering-electronics-computer-science/laser-hoodie">
+                    <img src="{merch}"/>
+                </a>
             </div>
-        </div>
     </div>
 </div>
 <div class="content-row">
