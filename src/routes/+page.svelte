@@ -285,7 +285,7 @@
     <div class="gallery-container">
             <Galleryitem url={week11}/>
             
-            </div>
+            
     </div>
 </div>
 <div class="content-row">
