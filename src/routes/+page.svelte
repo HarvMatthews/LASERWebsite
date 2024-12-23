@@ -284,10 +284,7 @@
 <div class="content-row" id="projects-header">
     <div class="gallery-container">
             <Galleryitem url={week11}/>
-            <div class="gallery-item">
-                <a href="https://payments.liv.ac.uk/product-catalogue/uol-merchandise/school-of-electrical-engineering-electronics-computer-science/laser-hoodie">
-                    <img src="{merch}"/>
-                </a>
+            
             </div>
     </div>
 </div>
