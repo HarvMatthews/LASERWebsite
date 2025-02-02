@@ -8,7 +8,7 @@
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 
-    import week11 from '/assets/newsletter/week12/week12.png';
+    import week13 from '/assets/newsletter/week13/week13.png';
 
     import Getinvolved from '../components/index/getinvolved.svelte';
 	import Faq from '../components/index/faq.svelte';
@@ -45,29 +45,12 @@
       background-color: #ffffff;
     }
 
-    .gallery-item {
-      position: relative;
-      overflow: hidden;
-      background-color: #f1f1f1;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease, filter 0.3s ease;
-      cursor: pointer;
+    .gallery-container:has(.gallery-item:nth-child(1):only-child) {
+      justify-content: center;
+      max-width: 600px;
+      margin: 0 auto;
     }
-
-    .gallery-item:hover {
-      transform: scale(1.05);
-      filter: invert(1);
-    }
-
-    .gallery-item img {
-      width: 100%;
-      height: auto;
-      display: block;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-    
+ 
     .header {
         background-image: url('/src/lib/assets/background-2.jpg');
         background-size: cover;
@@ -283,7 +266,7 @@
 </div>
 <div class="content-row" id="projects-header">
     <div class="gallery-container">
-            <Galleryitem url={week11}/>
+            <Galleryitem url={week13}/>
             
             
     </div>
