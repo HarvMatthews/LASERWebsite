@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-  import week13 from '/assets/newsletter/week12/week13.png';
+  import week13 from '/assets/newsletter/week13/week13.png';
   import week12 from '/assets/newsletter/week12/week12.png';
   import week11 from '/assets/newsletter/week11/week11.png';
   import week10 from '/assets/newsletter/week10/week10.png';
