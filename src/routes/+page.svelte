@@ -8,7 +8,7 @@
     import '@fontsource-variable/exo-2';
     import '@fontsource-variable/orbitron';
 
-    import week13 from '/assets/newsletter/week13/week13.png';
+    import week14 from '/assets/newsletter/week14/week14.png';
 
     import Getinvolved from '../components/index/getinvolved.svelte';
 	import Faq from '../components/index/faq.svelte';
@@ -266,7 +266,7 @@
 </div>
 <div class="content-row" id="projects-header">
     <div class="gallery-container">
-            <Galleryitem url={week13}/>
+            <Galleryitem url={week14}/>
             
             
     </div>
