@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+  import week15 from '/assets/newsletter/week15/week15.png';
   import week14 from '/assets/newsletter/week14/week14.png';
   import week13 from '/assets/newsletter/week13/week13.png';
   import week12 from '/assets/newsletter/week12/week12.png';
@@ -85,6 +86,7 @@
         <h2>Archive of past released newsletters.</h2>
         </div>
         <div class="gallery-container">
+          <Galleryitem url={week15}/>
           <Galleryitem url={week14}/>
           <Galleryitem url={week13}/>
           <Galleryitem url={week12}/>
