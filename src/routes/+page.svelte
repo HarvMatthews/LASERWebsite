@@ -266,7 +266,7 @@
 </div>
 <div class="content-row" id="projects-header">
     <div class="gallery-container">
-            <Galleryitem url={week18}/>
+            <Galleryitem url={week20}/>
             
             
     </div>
