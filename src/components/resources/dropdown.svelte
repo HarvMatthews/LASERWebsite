@@ -36,7 +36,7 @@
   left: 50%; 
   transform: translateX(-49.5%); 
   opacity: 0.5; 
-  transition: opacity 0.3s ease-in-out;;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .dropdown-content a {
